@@ -18,11 +18,11 @@ const Router = createRouter({
     { path: "/home", component: Home ,
       children:[
         { path: "",component: AcquiesceConent},
-        { path: "/patent-register", component: PatentRegister },
-        { path: "/patent-license", component: PatentLicense },
-        { path: "/patent-buy-sell", component: PatentBuySell },
-        { path: "/patent-monitor", component: PatentMonitor },
-        { path: "/personal-info", component: PersonalInfo },
+        { path: "patent-register", component: PatentRegister },
+        { path: "patent-license", component: PatentLicense },
+        { path: "patent-buy-sell", component: PatentBuySell },
+        { path: "patent-monitor", component: PatentMonitor },
+        { path: "personal-info", component: PersonalInfo },
       ],
     },
   ]

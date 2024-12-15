@@ -18,10 +18,10 @@
   let password = ref("")
   const router = useRouter();
   function login(){
-      router.push("/home");
+      router.replace("/home");
   }
   function goToRegister(){
-    router.push("/register");
+    router.replace("/register");
   }
 </script>
 

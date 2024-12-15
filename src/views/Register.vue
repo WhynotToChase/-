@@ -21,10 +21,10 @@
   const router = useRouter();
 
   function register(){
-    router.push("/home");
+    router.replace("/home");
   }
   function goToLogin(){
-    router.push("/");
+    router.replace("/");
   }
 </script>
   

@@ -5,16 +5,16 @@
       <div class="logo">专利管理系统</div>
       <ul>
         <li>
-          <RouterLink to="/patent-register" class="nav-link">专利注册和存储</RouterLink>
+          <RouterLink replace to="/home/patent-register" class="nav-link">专利注册和存储</RouterLink>
         </li>
         <li>
-          <RouterLink to="/patent-license" class="nav-link">专利授权与许可管理</RouterLink>
+          <RouterLink replace to="/home/patent-license" class="nav-link">专利授权与许可管理</RouterLink>
         </li>
         <li>
-          <RouterLink to="/patent-buy-sell" class="nav-link">专利买卖和转让</RouterLink>
+          <RouterLink replace to="/home/patent-buy-sell" class="nav-link">专利买卖和转让</RouterLink>
         </li>
         <li>
-          <RouterLink to="/patent-monitor" class="nav-link">专利监控与侵权检测</RouterLink>
+          <RouterLink replace to="/home/patent-monitor" class="nav-link">专利监控与侵权检测</RouterLink>
         </li>
       </ul>
     </aside>
