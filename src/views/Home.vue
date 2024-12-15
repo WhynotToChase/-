@@ -11,7 +11,7 @@
           <RouterLink replace to="/home/patent-license" class="nav-link">专利授权与许可管理</RouterLink>
         </li>
         <li>
-          <RouterLink replace to="/home/patent-buy-sell" class="nav-link">专利买卖和转让</RouterLink>
+          <RouterLink replace to="/home/patent-buy" class="nav-link">专利买卖和转让</RouterLink>
         </li>
         <li>
           <RouterLink replace to="/home/patent-monitor" class="nav-link">专利监控与侵权检测</RouterLink>

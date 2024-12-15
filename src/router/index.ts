@@ -5,10 +5,11 @@ import Register from "../views/Register.vue";
 import Home from "../views/Home.vue";
 import PatentRegister from '../components/PatentRegister.vue';
 import PatentLicense from '../components/PatentLicense.vue';
-import PatentBuySell from '../components/PatentBuySell.vue';
+import PatentBuy from '../components/PatentBuy.vue';
 import PatentMonitor from '../components/PatentMonitor.vue';
 import PersonalInfo from '../components/PersonalInfo.vue';
 import AcquiesceConent from '../components/AcquiesceContent.vue';
+import Buy from '../components/BuyPage.vue';
 
 const Router = createRouter({
   history:createWebHistory(),
@@ -20,11 +21,13 @@ const Router = createRouter({
         { path: "",component: AcquiesceConent},
         { path: "patent-register", component: PatentRegister },
         { path: "patent-license", component: PatentLicense },
-        { path: "patent-buy-sell", component: PatentBuySell },
+        { path: "patent-buy", component: PatentBuy },
         { path: "patent-monitor", component: PatentMonitor },
         { path: "personal-info", component: PersonalInfo },
+		{ path: "buy",component: Buy},
       ],
     },
+	
   ]
 });
 
