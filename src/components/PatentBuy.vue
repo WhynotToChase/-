@@ -7,9 +7,9 @@
 	  </div>
 	</div>
 	<div id="d4">
-	  <el-table :data="paginatedPatents" border id="d5">
+	  <el-table :data="paginatedPatents" border stripe id="d5">
 		<el-table-column fixed prop="patentID" label="专利ID" width="150" />
-		<el-table-column prop="price" label="专利价格" width="150" />
+		<el-table-column prop="price" label="专利价格/￥" width="150" />
 		<el-table-column prop="patentDetail" label="专利描述" width="1200" show-overflow-tooltip />
 		<el-table-column fixed="right" label="操作" width="100">
 		  <template #default="{row}">
@@ -113,13 +113,18 @@ async function getPatents(){
 	loading.value = true;
 	try {
 	  const response = await axios.get('/api/patents');
-	  patents.value=response.data;
-	 
+	  if(response.data){
+		  patents.value=response.data;
+	  }
+	  else{
+		  ElMessage({message:'没有找到专利',type:'warning'});
+	  }
 	}
 	catch(error){
 		ElMessage({message:'获取专利信息失败',type:'warning'});
 	}
 	finally{ 
+		
 		loading.value=false; 		
 	}
 }
