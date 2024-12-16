@@ -25,11 +25,10 @@ const Router = createRouter({
         { path: "patent-buy", component: PatentBuy },
         { path: "patent-monitor", component: PatentMonitor },
         { path: "personal-info", component: PersonalInfo },
-		{ path: "buy",component: Buy},
-		{path:"sell",component:Sell},
+		    { path: "buy",component: Buy},
+		    { path: "sell",component: Sell},
       ],
     },
-	
   ]
 });
 

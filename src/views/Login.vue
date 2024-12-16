@@ -1,50 +1,92 @@
 <template>
-  <div class="login-container">
-    <h1>登录</h1>
-    <input v-model="username" type="text" placeholder="请输入用户名" />
-    <input v-model="password" type="password" placeholder="请输入密码" />
-    <div>
-      <button @click="login">登录</button>
-      <button @click="goToRegister">注册</button>
+  <div class="login-background">
+    <div class="login-container">
+      <h1>登录</h1>
+      <div class="input-group">
+        <label for="emailaddress">邮箱：</label>
+        <input id="emailaddress" v-model="emailaddress" type="text" placeholder="请输入邮箱" />
+      </div>
+      <div class="input-group">
+        <label for="password">密码：</label>
+        <input id="password" v-model="password" type="password" placeholder="请输入密码" />
+      </div>
+      <div>
+        <button @click="login">登录</button>
+        <button @click="goToRegister">注册</button>
+      </div>
     </div>
   </div>
 </template>
 
-<script lang="ts" setup name = "Login">
-  import { defineComponent ,ref} from "vue";
+<script lang="ts" setup name="Login">
+  import { ref } from "vue";
   import { useRouter } from "vue-router";
 
-  let username = ref("")
-  let password = ref("")
+  let emailaddress = ref("");
+  let password = ref("");
   const router = useRouter();
-  function login(){
-      router.replace("/home");
+
+  function login() {
+    if(true){
+      console.log()
+    }
+    else{
+      console.log()
+    }
+    router.replace("/home");
   }
-  function goToRegister(){
+
+  function goToRegister() {
+
     router.replace("/register");
   }
 </script>
 
 <style scoped>
+.login-background {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../asserts/background.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex; /* 启用 flexbox */
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+}
+
 .login-container {
+  background-color: rgba(255, 255, 255, 0.8); /* 半透明背景，增加对比度 */
   text-align: center;
-  margin-top: 20%;
+  width: 30%;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center; /* 使文本和输入框垂直居中 */
+  margin-bottom: 10px;
+}
+
+.input-group label {
+  flex: 0 0 80px; /* 给标签设置固定宽度 */
+  text-align: right; /* 标签对齐右边 */
+  margin-right: 10px; /* 标签和输入框之间的间隔 */
 }
 
 input {
   display: block;
-  margin: 8px auto;
   padding: 8px;
-  width: 300px;
+  width: 70%; /* 输入框宽度占父容器的 70% */
   border: 1px solid #ddd;
   border-radius: 4px;
 }
 
 button {
-  padding: 8px 16px;
-  margin: 12px;
+  padding: 8px 30px;
+  margin: 12px 40px;
   border: none;
-  border-radius: 4px;
+  border-radius: 12px;
   background: #007bff;
   color: white;
   cursor: pointer;

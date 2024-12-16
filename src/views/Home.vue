@@ -22,7 +22,7 @@
     <!-- 内容区域 -->
     <main class="content">
       <header class="header">
-        <RouterLink to="/personal-info" class="header-link">
+        <RouterLink to="/home/personal-info" class="header-link">
           个人信息
         </RouterLink>
       </header>
