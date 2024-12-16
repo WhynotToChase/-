@@ -18,7 +18,7 @@
 						</el-scrollbar>
 					</div>
 					<template #footer>
-						<span>价格：{{patents.price}}</span>
+						<span>价格：{{patents.price}}人民币/￥</span>
 					</template>
 				</el-card>
 			</div>
@@ -56,7 +56,8 @@ async function query() {
     });
     //patents.value = response.data; // 更新专利列表
   } catch (error) {
-    ElMessageBox.alert(error, "生成交易订单失败", {
+	const errorMessage = error instanceof Error ? error.message : '未知错误';
+    ElMessageBox.alert(errorMessage, "生成交易订单失败", {
       confirmButtonText: '确认',
       callback: (action) => {
         ElMessage({
@@ -96,7 +97,8 @@ async function buy(){
 	    },
 	  });
 	} catch (error) {
-	   ElMessageBox.alert(error, '交易失败', {
+		const errorMessage = error instanceof Error ? error.message : '未知错误';
+	   ElMessageBox.alert(errorMessage, '交易失败', {
 	     confirmButtonText: '确认',
 	     callback: (action) => {
 	       ElMessage({
