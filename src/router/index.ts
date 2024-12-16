@@ -10,6 +10,7 @@ import PatentMonitor from '../components/PatentMonitor.vue';
 import PersonalInfo from '../components/PersonalInfo.vue';
 import AcquiesceConent from '../components/AcquiesceContent.vue';
 import Buy from '../components/BuyPage.vue';
+import Sell from '../components/SellPage.vue'
 
 const Router = createRouter({
   history:createWebHistory(),
@@ -25,6 +26,7 @@ const Router = createRouter({
         { path: "patent-monitor", component: PatentMonitor },
         { path: "personal-info", component: PersonalInfo },
 		{ path: "buy",component: Buy},
+		{path:"sell",component:Sell},
       ],
     },
 	
