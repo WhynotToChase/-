@@ -10,8 +10,20 @@
         <li>
           <RouterLink replace to="/home/patent-license" class="nav-link">专利授权与许可管理</RouterLink>
         </li>
-        <li>
-          <RouterLink replace to="/home/patent-buy" class="nav-link">专利买卖和转让</RouterLink>
+         <!-- 点击“专利买卖和转让”时展开/收起下面的两个链接 -->
+         <li>
+          <button @click="togglePatentTrade" class="nav-link" style="background: transparent; border: none; cursor: pointer;">
+            专利买卖和转让
+          </button>
+          <!-- 展开项，只有当showPatentTrade为true时显示 -->
+          <ul v-if="showPatentTrade">
+            <li>
+              <RouterLink replace to="/home/patent-buy" class="nav-link_1">专利购买</RouterLink>
+            </li>
+            <li>
+              <RouterLink replace to="/home/sell" class="nav-link_1">专利出售</RouterLink>
+            </li>
+          </ul>
         </li>
         <li>
           <RouterLink replace to="/home/patent-monitor" class="nav-link">专利监控与侵权检测</RouterLink>
@@ -35,7 +47,13 @@
 
 <script lang="ts" setup name = "Home">
   import { RouterView } from "vue-router";
-  
+  import {ref} from "vue"
+  // 控制“专利买卖和转让”项展开和收起
+  const showPatentTrade = ref(false);
+
+  function togglePatentTrade() {
+    showPatentTrade.value = !showPatentTrade.value;
+  }
 </script>
 
 <style scoped>
@@ -53,7 +71,8 @@
 }
 
 .logo {  
-  font-size: 20px;
+  font-size: 24px;
+  color: #f9f900;
   text-align: center;
   margin-bottom: 16px;
 }
@@ -72,9 +91,18 @@
 }
 
 .nav-link {
+  width: 100%;  /* 使链接占满父元素宽度 */
   color: white;
   text-decoration: none;  /* 去除下划线 */
   display: block;  /* 让整个li区域变成点击区域 */
+  font-size: 16px; 
+}
+
+.nav-link_1 {
+  color: white;
+  text-decoration: none;  /* 去除下划线 */
+  display: block;  /* 让整个li区域变成点击区域 */
+  font-size: 13px; 
 }
 
 .sidebar li:hover,
