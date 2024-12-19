@@ -7,12 +7,16 @@
         <input id="username" v-model="username" type="text" placeholder="请输入用户名" />
       </div>
       <div class="input-group">
-        <label for="email">邮箱：</label>
-        <input id="email" v-model="email" type="email" placeholder="请输入邮箱" />
+        <label for="email">电子邮箱：</label>
+        <input id="email" v-model="email" type="text" placeholder="请输入电子邮箱" />
       </div>
       <div class="input-group">
-        <label for="password">密码：</label>
-        <input id="password" v-model="password" type="password" placeholder="请输入密码" />
+        <label for="account">选择账户：</label>
+        <select id="account" v-model="selectedAccount">
+          <option v-for="account in accounts" :key="account" :value="account">
+            {{ account }}
+          </option>
+        </select>
       </div>
       <div>
         <button @click="register">注册</button><br>
@@ -23,21 +27,59 @@
 </template>
 
 <script lang="ts" setup name="Register">
-  import { ref } from "vue";
+  import { ref, onMounted } from "vue";
   import { useRouter } from "vue-router";
-  
+  import { web3, User } from "@/web3"; // 导入 web3 和合约实例
+
   let username = ref("");
   let email = ref("");
   let password = ref("");
   const router = useRouter();
+  let accounts = ref<string[]>([]);
+  let selectedAccount = ref<string>(""); // 选中的账户
 
-  function register() {
-    router.replace("/home");
+  async function fetchAccounts() {
+    try {
+      accounts.value = await web3.eth.getAccounts();
+      if (accounts.value.length > 0) {
+        selectedAccount.value = accounts.value[0]; // 默认选择第一个账户
+      }
+    } catch (error) {
+      console.error("Failed to fetch accounts:", error);
+    }
+  }
+
+  async function register() {
+    if (!selectedAccount.value) {
+      alert("请选择一个账户！");
+      return;
+    }
+
+    try {
+      const userRole = 1; // 假设默认为 PatentHolder
+      console.log("Username", username.value);
+      console.log("User role", userRole);
+      console.log("Selected account", selectedAccount.value);
+      await User.methods
+        .registerUser(username.value, email.value, userRole)
+        .send({ 
+          from: selectedAccount.value, 
+          gas: "200000", // 设置 gasLimit 
+        });
+      
+      alert("注册成功！");
+      router.replace("/");
+    } catch (error) {
+      console.error("注册失败：", error);
+      alert("用户已注册，请登录！");
+    }
   }
 
   function goToLogin() {
     router.replace("/");
   }
+
+  onMounted(fetchAccounts);
 </script>
 
 <style scoped>

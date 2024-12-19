@@ -1,6 +1,7 @@
 <template>
   <div class="personal-info-container">
     <h1>个人信息</h1>
+    <p>用户地址：{{ userAddress }}</p>
     <p>用户名：{{ username }}</p>
     <p>邮箱地址：{{ email }}</p>
     <!-- 展示专利信息 -->
@@ -27,9 +28,17 @@
   import { ref, onMounted } from "vue";
   import { useRouter } from "vue-router";
   import { Table } from 'ant-design-vue'; // 引入 Table 组件
-  let username = ref("q区块链");
-  let email = ref("qkl@tongji.edu.com");
+  import { web3, Patent } from "@/web3";
+  let userAddress = ref("");
+  let username = ref("");
+  let email = ref("");
   const router = useRouter();
+  // 定义专利数据的类型
+  interface Patent {
+    key: number;
+    patentID: number;
+    patentDetail: string;
+  }
 
   // 专利信息列配置
   const patents_column = ref([
@@ -48,24 +57,43 @@
   ]);
 
   // 专利数据
-  const patents = ref([
-    { key: 1, patentID: '销售好', patentDetail: '某种技术的专利' },
-    { key: 2, patentID: '销售差', patentDetail: '其他技术的专利' }]);
-  // 获取用户专利信息的函数
-  const getUserPatents = async (userId: string) => {
-    // 模拟从后端获取专利信息的 API 请求
-    const data = [
-      { key: 1, patentID: '销售好', patentDetail: '某种技术的专利' },
-      { key: 2, patentID: '销售差', patentDetail: '其他技术的专利' }
-    ];
-    // 将数据赋值给专利列表
-    patents.value = data;
+  const patents = ref<Patent[]>([]); // 明确指定 patents 的类型
+  
+  // 获取用户专利信息
+  const getUserPatents = async () => {
+    try {
+      // 调用合约获取专利ID列表
+      const patentIds: number[] = await Patent.methods.getUserPatents().call({ from: userAddress.value });
+
+      const patentDetails = [];
+
+      // 定义返回值类型
+      type PatentInfo = [number, string, string, number, number];
+
+      // 获取每个专利的详细信息
+      for (const patentId of patentIds) {
+        const patent = (await Patent.methods.getPatent(patentId).call()) as PatentInfo;
+        patentDetails.push({
+          key: patentId, // 唯一键
+          patentID: patentId, // 专利ID
+          patentDetail: patent[1], // 专利描述
+        });
+      }
+
+      patents.value = patentDetails; // 更新专利列表
+    } catch (error) {
+      console.error("获取专利信息失败：", error);
+      patents.value = []; // 确保出错时清空数据
+    }
   };
 
   // 模拟用户 ID 获取
-  onMounted(() => {
-    const userId = "123";  // 在实际使用中，应从当前用户数据中获取
-    getUserPatents(userId);
+  onMounted(async () => {
+    userAddress.value = localStorage.getItem("userAddress") || "未知地址";
+    username.value = localStorage.getItem("username") || "未知用户";
+    email.value = localStorage.getItem("email") || "未知邮箱";
+
+    await getUserPatents(); // 获取专利信息
   });
 
   // 路由跳转
@@ -74,6 +102,7 @@
   }
 
   function goToLogin() {
+    localStorage.clear(); // 清除用户信息
     router.push("/");
   }
 </script>

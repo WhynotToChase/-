@@ -3,12 +3,12 @@
     <div class="login-container">
       <h1>登录</h1>
       <div class="input-group">
-        <label for="emailaddress">邮箱：</label>
-        <input id="emailaddress" v-model="emailaddress" type="text" placeholder="请输入邮箱" />
-      </div>
-      <div class="input-group">
-        <label for="password">密码：</label>
-        <input id="password" v-model="password" type="password" placeholder="请输入密码" />
+        <label for="account">选择账户：</label>
+        <select id="account" v-model="selectedAccount">
+          <option v-for="account in accounts" :key="account" :value="account">
+            {{ account }}
+          </option>
+        </select>
       </div>
       <div>
         <button @click="login">登录</button>
@@ -19,27 +19,72 @@
 </template>
 
 <script lang="ts" setup name="Login">
-  import { ref} from "vue";
+  import { ref, onMounted } from "vue";
   import { useRouter } from "vue-router";
+  import { web3, User } from "@/web3";
 
   let emailaddress = ref("");
   let password = ref("");
   const router = useRouter();
+  const accounts = ref<string[]>([]); // 用于存储所有连接的账户
+  const selectedAccount = ref<string>(""); // 用户选择的账户
 
-  function login() {
-    if(true){
-      console.log()
-    }
-    else{
-      console.log()
-    }
-    router.replace("/home");
+  interface User {
+    addr: string; // 用户地址
+    name: string; // 用户名
+    email: string; // 电子邮箱
+    role: number; // 用户角色 (Role 枚举值)
+    isRegistered: boolean; // 注册状态
   }
 
-  function goToRegister() {
+  // 获取账户列表
+  async function fetchAccounts() {
+    try {
+      accounts.value = await web3.eth.getAccounts();
+      if (accounts.value.length > 0) {
+        selectedAccount.value = accounts.value[0]; // 默认选择第一个账户
+      }
+    } catch (error) {
+      console.error("Failed to fetch accounts:", error);
+    }
+  }
 
+  // 登录逻辑
+  async function login() {
+  if (!selectedAccount.value) {
+    alert("请选择一个账户！");
+    return;
+  }
+
+  try {
+      console.log("Selected account", selectedAccount.value);
+      const userInfo = (await User.methods.getUser(selectedAccount.value).call()) as User;
+      console.log("User info", userInfo);
+
+      if (userInfo.isRegistered) {
+        localStorage.setItem("userAddress", userInfo.addr);
+        localStorage.setItem("username", userInfo.name);
+        localStorage.setItem("email", userInfo.email);
+
+        alert(`欢迎回来, ${userInfo.name}！`);
+        router.replace("/home");
+      } else {
+        alert("未注册用户，请先注册！");
+        router.replace("/register");
+      }
+    } catch (error) {
+      console.error("登录失败：", error);
+      alert("未注册用户，请先注册！");
+    }
+  }
+
+  // 跳转到注册页
+  function goToRegister() {
     router.replace("/register");
   }
+
+  // 页面加载时获取账户
+  onMounted(fetchAccounts);
 </script>
 
 <style scoped>

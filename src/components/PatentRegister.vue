@@ -27,56 +27,87 @@
 </template>
 
 <script>
+import { ref, onMounted } from "vue";
+import { web3, Patent } from "@/web3";
+
 export default {
   data() {
     return {
       form: {
         description: ''
       },
-      patents: [{
-        patentId: 1,
-        description: '这是一个测试专利',
-        registerationTime: '2024-01-01',
-        expiryTime: '2025-01-01',
-        isExpired: false
-      }]
+      patents: [], // 专利列表
     };
   },
   methods: {
     resetForm() {
       this.$refs.patentForm.resetFields();
     },
-    submitPatent() {
-      // 模拟提交专利逻辑
-      if (this.form.description) {
-        this.$confirm('确定要注册该专利吗？', '提示', {
-          confirmButtonText: '确定',
-          cancelButtonText: '取消',
-          type: 'warning'
-        }).then(() => {
-          this.patents.push({
-            patentId: this.patents.length + 1,
-            description: this.form.description,
-            registerationTime: new Date().toISOString().split('T')[0],
-            expiryTime: new Date(new Date().setFullYear(new Date().getFullYear() + 1)).toISOString().split('T')[0],
-            isExpired: false
-          });
-          this.$message({
-            message: '注册成功',
-            type: 'success'
-          });
-          this.resetForm();
-        }).catch(() => {
-          this.$message({
-            type: 'info',
-            message: '已取消注册'
-          });
-        });
-      } else {
+    async submitPatent() {
+      if (!this.form.description) {
         this.$message.error('注册失败：请填写专利描述');
+        return;
+      }
+
+      try {
+        const owner = localStorage.getItem("userAddress"); // 当前用户的地址
+        const patentId = Math.floor(Math.random() * 100000); // 随机生成专利ID
+        const duration = 365 * 24 * 60 * 60; // 专利有效期（1年，单位：秒）
+
+        console.log("owner", owner);
+        console.log("patentId", patentId);
+        console.log("description", this.form.description);
+        console.log("duration", duration);
+        // 调用合约的 registerPatent 方法
+        await Patent.methods
+          .registerPatent(patentId, this.form.description, duration)
+          .send({ 
+            from: owner,
+            gas: "300000", // 设置 gasLimit  
+          });
+
+        this.$message.success('专利注册成功');
+        this.resetForm(); // 清空表单
+        this.fetchPatents(); // 刷新专利列表
+      } catch (error) {
+        console.error('专利注册失败：', error);
+        this.$message.error('专利注册失败，请检查链上状态或钱包连接');
+      }
+    },
+    async fetchPatents() {
+      try {
+        const owner = localStorage.getItem("userAddress"); // 当前用户的地址
+
+        this.patents = []; // 清空专利列表
+
+        // 调用合约方法获取当前用户的专利ID列表
+        const patentIds = await Patent.methods.getUserPatents().call({ from: owner });
+
+        for (const patentId of patentIds) {
+          const patent = await Patent.methods.getPatent(patentId).call();
+          const isExpired = await Patent.methods.isPatentExpired(patentId).call();
+
+          // 将时间戳从 BigInt 转为 Number
+          const registrationTime = Number(patent[3]);
+          const expiryTime = Number(patent[4]);
+
+          this.patents.push({
+            patentId: patent[0],
+            description: patent[1],
+            registerationTime: new Date(registrationTime * 1000).toISOString().split("T")[0],
+            expiryTime: new Date(expiryTime * 1000).toISOString().split("T")[0],
+            isExpired: isExpired,
+          });
+        }
+      } catch (error) {
+        console.error('获取专利信息失败：', error);
+        this.$message.error('获取专利信息失败，请检查链上状态或钱包连接');
       }
     }
-  }
+  },
+  mounted() {
+    this.fetchPatents();
+  },
 };
 </script>
 
