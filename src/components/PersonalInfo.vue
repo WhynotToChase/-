@@ -49,6 +49,12 @@
       customHeaderCell: () => ({ style: "font-size: 15px;" }),
     },
     {
+      title: "专利名称",
+      dataIndex: "patentName", // 修改为正确的属性名
+      align: "center",  // 使文字居中
+      customHeaderCell: () => ({ style: "font-size: 15px;" }),
+    },
+    {
       title: "专利详情",
       dataIndex: "patentDetail", // 修改为正确的属性名
       align: "center",  // 使文字居中
@@ -68,15 +74,16 @@
       const patentDetails = [];
 
       // 定义返回值类型
-      type PatentInfo = [number, string, string, number, number];
+      type PatentInfo = [number, string, string, string, number, number];
 
       // 获取每个专利的详细信息
       for (const patentId of patentIds) {
         const patent = (await Patent.methods.getPatent(patentId).call()) as PatentInfo;
         patentDetails.push({
           key: patentId, // 唯一键
-          patentID: patentId, // 专利ID
-          patentDetail: patent[1], // 专利描述
+          patentID: patent[0], // 专利ID
+          patentName: patent[1], // 专利名称
+          patentDetail: patent[2], // 专利描述
         });
       }
 

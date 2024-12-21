@@ -4,8 +4,8 @@ import UserContract from "../contracts/UserIdentityManagement.json";
 import PatentRegistryContract from "../contracts/PatentRegistry.json";
 import PatentLicenseManagementContract from "../contracts/PatentLicenseManagement.json";
 import PatentMarketContract from "../contracts/PatentMarket.json";
-import PatentContract from "../contracts/Patent.json";
-import PatentBaseContract from "../contracts/PatentBase.json";
+// import PatentContract from "../contracts/Patent.json";
+// import PatentBaseContract from "../contracts/PatentBase.json";
 
 // 定义合约 JSON 类型
 interface ContractJSON {
@@ -15,11 +15,11 @@ interface ContractJSON {
 
 // 确保合约类型符合 JSON 格式
 const userContractJSON = UserContract as ContractJSON;
-const patentContractJSON = PatentContract as ContractJSON;
+const patentContractJSON = PatentRegistryContract as ContractJSON;
 const PatentLicenseManagementJSON = PatentLicenseManagementContract as ContractJSON;
 const patentMarketJSON = PatentMarketContract as ContractJSON;
-const patentJSON = PatentContract as ContractJSON;
-const patentBaseJSON = PatentBaseContract as ContractJSON;
+// const patentJSON = PatentContract as ContractJSON;
+// const patentBaseJSON = PatentBaseContract as ContractJSON;
 
 const web3 = new Web3(new Web3.providers.HttpProvider("http://43.142.99.126:8545"));
 
@@ -33,15 +33,15 @@ const User = new web3.eth.Contract(
 );
 
 const Patent = new web3.eth.Contract(
-    patentJSON.abi,
-    patentJSON.networks[networkIdStr]?.address
+    patentContractJSON.abi,
+    patentContractJSON.networks[networkIdStr]?.address
 );
 
 
-const PatentBase = new web3.eth.Contract(
+/* const PatentBase = new web3.eth.Contract(
     patentBaseJSON.abi,
     patentBaseJSON.networks[networkIdStr]?.address
-);
+); */
 
 const PatentLicenseManagement = new web3.eth.Contract(
     PatentLicenseManagementJSON.abi,
@@ -53,9 +53,9 @@ const PatentMarket = new web3.eth.Contract(
     patentMarketJSON.networks[networkIdStr]?.address
 );
 
-const PatentRegistry = new web3.eth.Contract(
+/* const PatentRegistry = new web3.eth.Contract(
     patentContractJSON.abi,
     patentContractJSON.networks[networkIdStr]?.address
-);
+); */
 
-export {web3, User, PatentBase, PatentLicenseManagement, PatentMarket, PatentRegistry, Patent};
+export {web3, User, PatentLicenseManagement, PatentMarket, Patent};
