@@ -10,6 +10,10 @@
         <label for="duration">有效期（天）</label>
         <input id="duration" v-model="duration" type="number" placeholder="请输入专利有效期（天）" />
       </div>
+      <div class="input-item">
+        <label for="duration">价格</label>
+        <input id="duration" v-model="price" type="number" placeholder="请输入专利价格" />
+      </div>
     </div>
     <el-form :model="form" ref="patentForm" class="form-container">
       <el-form-item label="专利描述" prop="description" class="custom-form-item">
@@ -27,6 +31,7 @@
       <el-table-column prop="patentId" label="专利ID"></el-table-column>
       <el-table-column prop="patentName" label="专利名称"></el-table-column>
       <el-table-column prop="description" label="描述"></el-table-column>
+      <el-table-column prop="price" label="价格"></el-table-column>
       <el-table-column prop="registerationTime" label="授权时间"></el-table-column>
       <el-table-column prop="expiryTime" label="到期时间"></el-table-column>
       <el-table-column label="是否到期">
@@ -49,6 +54,7 @@ export default {
       },
       patentname: "",
       duration: "",
+      price: "",
       patents: [], // 专利列表
     };
   },
@@ -80,10 +86,11 @@ export default {
         console.log("owner", owner);
         console.log("patentname", this.patentname);
         console.log("description", this.form.description);
+        console.log("price", this.price);
         console.log("duration", duration);
         // 调用合约的 registerPatent 方法
         await Patent.methods
-          .registerPatent(this.patentname, this.form.description, duration)
+          .registerPatent(this.patentname, this.form.description, duration, this.price)
           .send({ 
             from: owner,
             gas: "300000", // 设置 gasLimit  
@@ -113,7 +120,7 @@ export default {
           console.log("Patent", patent);
           const isExpired = await Patent.methods.isPatentExpired(patentId).call();
           console.log("IsExpired", isExpired);
-          
+
           // 将时间戳从 BigInt 转为 Number
           const registrationTime = Number(patent[4]);
           const expiryTime = Number(patent[5]);
@@ -125,6 +132,7 @@ export default {
             registerationTime: new Date(registrationTime * 1000).toISOString().split("T")[0],
             expiryTime: new Date(expiryTime * 1000).toISOString().split("T")[0],
             isExpired: isExpired,
+            price: patent[6],
           });
         }
       } catch (error) {
