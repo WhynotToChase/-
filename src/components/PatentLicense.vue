@@ -60,9 +60,9 @@ const filteredPatents = ref<Patent[]>([]);
 
 async function getLicenseRequests() {
   try {
-    const accounts = await web3.eth.getAccounts();
-    const user = accounts[0];
-    const requests = await PatentLicenseManagement.methods.getLicenseRequests(user).call();
+    const owner = localStorage.getItem("userAddress"); // 当前用户的地址
+
+    const requests = await PatentLicenseManagement.methods.getLicenseRequests(owner).call();
     licenseRequests.value = requests.map((request: any) => ({
       patentId: request.patentId,
       applicantName: request.applicantName,

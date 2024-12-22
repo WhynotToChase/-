@@ -10315,12 +10315,12 @@
     "1734075976300": {
       "events": {},
       "links": {},
-      "address": "0xA8CbF99a44C64EC8BeBFFfCf606AFF8e345fa5b4",
-      "transactionHash": "0xac547e8ae29eea11f110d676d06645e22acfdbdd8fe39b92d24153a58e199ab6"
+      "address": "0xfd7354F377e3aec01b0434768Ad431908cBF20de",
+      "transactionHash": "0x4541950c65fea2782643a79b4b3348fe51147f2d6a7b6e54db87f75e99ec686b"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2024-12-21T12:05:21.012Z",
+  "updatedAt": "2024-12-21T19:06:09.250Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

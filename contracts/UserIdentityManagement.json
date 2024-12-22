@@ -1827,7 +1827,7 @@
                 }
               ]
             },
-            "name": "validator_revert_t_enum$_Role_$1393",
+            "name": "validator_revert_t_enum$_Role_$2295",
             "nativeSrc": "2553:108:5",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
@@ -1890,7 +1890,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "validator_revert_t_enum$_Role_$1393",
+                      "name": "validator_revert_t_enum$_Role_$2295",
                       "nativeSrc": "2776:35:5",
                       "nodeType": "YulIdentifier",
                       "src": "2776:35:5"
@@ -1905,7 +1905,7 @@
                 }
               ]
             },
-            "name": "abi_decode_t_enum$_Role_$1393",
+            "name": "abi_decode_t_enum$_Role_$2295",
             "nativeSrc": "2667:157:5",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
@@ -2430,7 +2430,7 @@
                           }
                         ],
                         "functionName": {
-                          "name": "abi_decode_t_enum$_Role_$1393",
+                          "name": "abi_decode_t_enum$_Role_$2295",
                           "nativeSrc": "3748:29:5",
                           "nodeType": "YulIdentifier",
                           "src": "3748:29:5"
@@ -2452,7 +2452,7 @@
                 }
               ]
             },
-            "name": "abi_decode_tuple_t_string_memory_ptrt_string_memory_ptrt_enum$_Role_$1393",
+            "name": "abi_decode_tuple_t_string_memory_ptrt_string_memory_ptrt_enum$_Role_$2295",
             "nativeSrc": "2830:997:5",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
@@ -3974,7 +3974,7 @@
                 }
               ]
             },
-            "name": "validator_assert_t_enum$_Role_$1393",
+            "name": "validator_assert_t_enum$_Role_$2295",
             "nativeSrc": "5860:114:5",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
@@ -4024,7 +4024,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "validator_assert_t_enum$_Role_$1393",
+                      "name": "validator_assert_t_enum$_Role_$2295",
                       "nativeSrc": "6061:35:5",
                       "nodeType": "YulIdentifier",
                       "src": "6061:35:5"
@@ -4039,7 +4039,7 @@
                 }
               ]
             },
-            "name": "cleanup_t_enum$_Role_$1393",
+            "name": "cleanup_t_enum$_Role_$2295",
             "nativeSrc": "5980:129:5",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
@@ -4082,7 +4082,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "cleanup_t_enum$_Role_$1393",
+                      "name": "cleanup_t_enum$_Role_$2295",
                       "nativeSrc": "6205:26:5",
                       "nodeType": "YulIdentifier",
                       "src": "6205:26:5"
@@ -4102,7 +4102,7 @@
                 }
               ]
             },
-            "name": "convert_t_enum$_Role_$1393_to_t_uint8",
+            "name": "convert_t_enum$_Role_$2295_to_t_uint8",
             "nativeSrc": "6115:129:5",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
@@ -4150,7 +4150,7 @@
                           }
                         ],
                         "functionName": {
-                          "name": "convert_t_enum$_Role_$1393_to_t_uint8",
+                          "name": "convert_t_enum$_Role_$2295_to_t_uint8",
                           "nativeSrc": "6334:37:5",
                           "nodeType": "YulIdentifier",
                           "src": "6334:37:5"
@@ -4176,7 +4176,7 @@
                 }
               ]
             },
-            "name": "abi_encode_t_enum$_Role_$1393_to_t_uint8",
+            "name": "abi_encode_t_enum$_Role_$2295_to_t_uint8",
             "nativeSrc": "6250:135:5",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
@@ -4939,7 +4939,7 @@
                           }
                         ],
                         "functionName": {
-                          "name": "abi_encode_t_enum$_Role_$1393_to_t_uint8",
+                          "name": "abi_encode_t_enum$_Role_$2295_to_t_uint8",
                           "nativeSrc": "7592:40:5",
                           "nodeType": "YulIdentifier",
                           "src": "7592:40:5"
@@ -5087,7 +5087,7 @@
                 }
               ]
             },
-            "name": "abi_encode_t_struct$_User_$1405_memory_ptr_to_t_struct$_User_$1405_memory_ptr_fromStack",
+            "name": "abi_encode_t_struct$_User_$2307_memory_ptr_to_t_struct$_User_$2307_memory_ptr_fromStack",
             "nativeSrc": "6672:1203:5",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
@@ -5253,7 +5253,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "abi_encode_t_struct$_User_$1405_memory_ptr_to_t_struct$_User_$1405_memory_ptr_fromStack",
+                      "name": "abi_encode_t_struct$_User_$2307_memory_ptr_to_t_struct$_User_$2307_memory_ptr_fromStack",
                       "nativeSrc": "8133:87:5",
                       "nodeType": "YulIdentifier",
                       "src": "8133:87:5"
@@ -5273,7 +5273,7 @@
                 }
               ]
             },
-            "name": "abi_encode_tuple_t_struct$_User_$1405_memory_ptr__to_t_struct$_User_$1405_memory_ptr__fromStack_reversed",
+            "name": "abi_encode_tuple_t_struct$_User_$2307_memory_ptr__to_t_struct$_User_$2307_memory_ptr__fromStack_reversed",
             "nativeSrc": "7881:361:5",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
@@ -5725,7 +5725,7 @@
                           }
                         ],
                         "functionName": {
-                          "name": "convert_t_enum$_Role_$1393_to_t_uint8",
+                          "name": "convert_t_enum$_Role_$2295_to_t_uint8",
                           "nativeSrc": "9024:37:5",
                           "nodeType": "YulIdentifier",
                           "src": "9024:37:5"
@@ -5751,7 +5751,7 @@
                 }
               ]
             },
-            "name": "abi_encode_t_enum$_Role_$1393_to_t_uint8_fromStack",
+            "name": "abi_encode_t_enum$_Role_$2295_to_t_uint8_fromStack",
             "nativeSrc": "8930:145:5",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
@@ -6195,7 +6195,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "abi_encode_t_enum$_Role_$1393_to_t_uint8_fromStack",
+                      "name": "abi_encode_t_enum$_Role_$2295_to_t_uint8_fromStack",
                       "nativeSrc": "9881:50:5",
                       "nodeType": "YulIdentifier",
                       "src": "9881:50:5"
@@ -6261,7 +6261,7 @@
                 }
               ]
             },
-            "name": "abi_encode_tuple_t_address_t_string_memory_ptr_t_string_memory_ptr_t_enum$_Role_$1393_t_bool__to_t_address_t_string_memory_ptr_t_string_memory_ptr_t_uint8_t_bool__fromStack_reversed",
+            "name": "abi_encode_tuple_t_address_t_string_memory_ptr_t_string_memory_ptr_t_enum$_Role_$2295_t_bool__to_t_address_t_string_memory_ptr_t_string_memory_ptr_t_uint8_t_bool__fromStack_reversed",
             "nativeSrc": "9196:848:5",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
@@ -6552,7 +6552,7 @@
                           }
                         ],
                         "functionName": {
-                          "name": "abi_decode_t_enum$_Role_$1393",
+                          "name": "abi_decode_t_enum$_Role_$2295",
                           "nativeSrc": "10463:29:5",
                           "nodeType": "YulIdentifier",
                           "src": "10463:29:5"
@@ -6574,7 +6574,7 @@
                 }
               ]
             },
-            "name": "abi_decode_tuple_t_addresst_enum$_Role_$1393",
+            "name": "abi_decode_tuple_t_addresst_enum$_Role_$2295",
             "nativeSrc": "10050:492:5",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
@@ -10902,7 +10902,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "abi_encode_t_enum$_Role_$1393_to_t_uint8_fromStack",
+                      "name": "abi_encode_t_enum$_Role_$2295_to_t_uint8_fromStack",
                       "nativeSrc": "17795:50:5",
                       "nodeType": "YulIdentifier",
                       "src": "17795:50:5"
@@ -10917,7 +10917,7 @@
                 }
               ]
             },
-            "name": "abi_encode_tuple_t_string_memory_ptr_t_enum$_Role_$1393__to_t_string_memory_ptr_t_uint8__fromStack_reversed",
+            "name": "abi_encode_tuple_t_string_memory_ptr_t_enum$_Role_$2295__to_t_string_memory_ptr_t_uint8__fromStack_reversed",
             "nativeSrc": "17444:437:5",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
@@ -11806,7 +11806,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "abi_encode_t_enum$_Role_$1393_to_t_uint8_fromStack",
+                      "name": "abi_encode_t_enum$_Role_$2295_to_t_uint8_fromStack",
                       "nativeSrc": "19998:50:5",
                       "nodeType": "YulIdentifier",
                       "src": "19998:50:5"
@@ -11821,7 +11821,7 @@
                 }
               ]
             },
-            "name": "abi_encode_tuple_t_enum$_Role_$1393__to_t_uint8__fromStack_reversed",
+            "name": "abi_encode_tuple_t_enum$_Role_$2295__to_t_uint8__fromStack_reversed",
             "nativeSrc": "19847:236:5",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
@@ -11853,7 +11853,7 @@
           }
         ]
       },
-      "contents": "{\n\n    function allocate_unbounded() -> memPtr {\n        memPtr := mload(64)\n    }\n\n    function revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() {\n        revert(0, 0)\n    }\n\n    function revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() {\n        revert(0, 0)\n    }\n\n    function revert_error_1b9f4a0a5773e33b91aa01db23bf8c55fce1411167c872835e7fa00a4f17d46d() {\n        revert(0, 0)\n    }\n\n    function revert_error_987264b3b1d58a9c7f8255e93e81c77d86d6299019c33110a076957a3e06e2ae() {\n        revert(0, 0)\n    }\n\n    function round_up_to_mul_of_32(value) -> result {\n        result := and(add(value, 31), not(31))\n    }\n\n    function panic_error_0x41() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x41)\n        revert(0, 0x24)\n    }\n\n    function finalize_allocation(memPtr, size) {\n        let newFreePtr := add(memPtr, round_up_to_mul_of_32(size))\n        // protect against overflow\n        if or(gt(newFreePtr, 0xffffffffffffffff), lt(newFreePtr, memPtr)) { panic_error_0x41() }\n        mstore(64, newFreePtr)\n    }\n\n    function allocate_memory(size) -> memPtr {\n        memPtr := allocate_unbounded()\n        finalize_allocation(memPtr, size)\n    }\n\n    function array_allocation_size_t_string_memory_ptr(length) -> size {\n        // Make sure we can allocate memory without overflow\n        if gt(length, 0xffffffffffffffff) { panic_error_0x41() }\n\n        size := round_up_to_mul_of_32(length)\n\n        // add length slot\n        size := add(size, 0x20)\n\n    }\n\n    function copy_calldata_to_memory_with_cleanup(src, dst, length) {\n        calldatacopy(dst, src, length)\n        mstore(add(dst, length), 0)\n    }\n\n    function abi_decode_available_length_t_string_memory_ptr(src, length, end) -> array {\n        array := allocate_memory(array_allocation_size_t_string_memory_ptr(length))\n        mstore(array, length)\n        let dst := add(array, 0x20)\n        if gt(add(src, length), end) { revert_error_987264b3b1d58a9c7f8255e93e81c77d86d6299019c33110a076957a3e06e2ae() }\n        copy_calldata_to_memory_with_cleanup(src, dst, length)\n    }\n\n    // string\n    function abi_decode_t_string_memory_ptr(offset, end) -> array {\n        if iszero(slt(add(offset, 0x1f), end)) { revert_error_1b9f4a0a5773e33b91aa01db23bf8c55fce1411167c872835e7fa00a4f17d46d() }\n        let length := calldataload(offset)\n        array := abi_decode_available_length_t_string_memory_ptr(add(offset, 0x20), length, end)\n    }\n\n    function validator_revert_t_enum$_Role_$1393(value) {\n        if iszero(lt(value, 4)) { revert(0, 0) }\n    }\n\n    function abi_decode_t_enum$_Role_$1393(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_enum$_Role_$1393(value)\n    }\n\n    function abi_decode_tuple_t_string_memory_ptrt_string_memory_ptrt_enum$_Role_$1393(headStart, dataEnd) -> value0, value1, value2 {\n        if slt(sub(dataEnd, headStart), 96) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := calldataload(add(headStart, 0))\n            if gt(offset, 0xffffffffffffffff) { revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() }\n\n            value0 := abi_decode_t_string_memory_ptr(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := calldataload(add(headStart, 32))\n            if gt(offset, 0xffffffffffffffff) { revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() }\n\n            value1 := abi_decode_t_string_memory_ptr(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 64\n\n            value2 := abi_decode_t_enum$_Role_$1393(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function cleanup_t_uint160(value) -> cleaned {\n        cleaned := and(value, 0xffffffffffffffffffffffffffffffffffffffff)\n    }\n\n    function cleanup_t_address(value) -> cleaned {\n        cleaned := cleanup_t_uint160(value)\n    }\n\n    function validator_revert_t_address(value) {\n        if iszero(eq(value, cleanup_t_address(value))) { revert(0, 0) }\n    }\n\n    function abi_decode_t_address(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_address(value)\n    }\n\n    function abi_decode_tuple_t_address(headStart, dataEnd) -> value0 {\n        if slt(sub(dataEnd, headStart), 32) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function abi_encode_t_address_to_t_address(value, pos) {\n        mstore(pos, cleanup_t_address(value))\n    }\n\n    function array_length_t_string_memory_ptr(value) -> length {\n\n        length := mload(value)\n\n    }\n\n    function array_storeLengthForEncoding_t_string_memory_ptr(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function copy_memory_to_memory_with_cleanup(src, dst, length) {\n        let i := 0\n        for { } lt(i, length) { i := add(i, 32) }\n        {\n            mstore(add(dst, i), mload(add(src, i)))\n        }\n        mstore(add(dst, length), 0)\n    }\n\n    function abi_encode_t_string_memory_ptr_to_t_string_memory_ptr(value, pos) -> end {\n        let length := array_length_t_string_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_string_memory_ptr(pos, length)\n        copy_memory_to_memory_with_cleanup(add(value, 0x20), pos, length)\n        end := add(pos, round_up_to_mul_of_32(length))\n    }\n\n    function panic_error_0x21() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x21)\n        revert(0, 0x24)\n    }\n\n    function validator_assert_t_enum$_Role_$1393(value) {\n        if iszero(lt(value, 4)) { panic_error_0x21() }\n    }\n\n    function cleanup_t_enum$_Role_$1393(value) -> cleaned {\n        cleaned := value validator_assert_t_enum$_Role_$1393(value)\n    }\n\n    function convert_t_enum$_Role_$1393_to_t_uint8(value) -> converted {\n        converted := cleanup_t_enum$_Role_$1393(value)\n    }\n\n    function abi_encode_t_enum$_Role_$1393_to_t_uint8(value, pos) {\n        mstore(pos, convert_t_enum$_Role_$1393_to_t_uint8(value))\n    }\n\n    function cleanup_t_bool(value) -> cleaned {\n        cleaned := iszero(iszero(value))\n    }\n\n    function abi_encode_t_bool_to_t_bool(value, pos) {\n        mstore(pos, cleanup_t_bool(value))\n    }\n\n    // struct UserIdentityManagement.User -> struct UserIdentityManagement.User\n    function abi_encode_t_struct$_User_$1405_memory_ptr_to_t_struct$_User_$1405_memory_ptr_fromStack(value, pos)  -> end  {\n        let tail := add(pos, 0xa0)\n\n        {\n            // addr\n\n            let memberValue0 := mload(add(value, 0x00))\n            abi_encode_t_address_to_t_address(memberValue0, add(pos, 0x00))\n        }\n\n        {\n            // name\n\n            let memberValue0 := mload(add(value, 0x20))\n\n            mstore(add(pos, 0x20), sub(tail, pos))\n            tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr(memberValue0, tail)\n\n        }\n\n        {\n            // email\n\n            let memberValue0 := mload(add(value, 0x40))\n\n            mstore(add(pos, 0x40), sub(tail, pos))\n            tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr(memberValue0, tail)\n\n        }\n\n        {\n            // role\n\n            let memberValue0 := mload(add(value, 0x60))\n            abi_encode_t_enum$_Role_$1393_to_t_uint8(memberValue0, add(pos, 0x60))\n        }\n\n        {\n            // isRegistered\n\n            let memberValue0 := mload(add(value, 0x80))\n            abi_encode_t_bool_to_t_bool(memberValue0, add(pos, 0x80))\n        }\n\n        end := tail\n    }\n\n    function abi_encode_tuple_t_struct$_User_$1405_memory_ptr__to_t_struct$_User_$1405_memory_ptr__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_struct$_User_$1405_memory_ptr_to_t_struct$_User_$1405_memory_ptr_fromStack(value0,  tail)\n\n    }\n\n    function abi_encode_t_address_to_t_address_fromStack(value, pos) {\n        mstore(pos, cleanup_t_address(value))\n    }\n\n    function array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value, pos) -> end {\n        let length := array_length_t_string_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, length)\n        copy_memory_to_memory_with_cleanup(add(value, 0x20), pos, length)\n        end := add(pos, round_up_to_mul_of_32(length))\n    }\n\n    function abi_encode_t_enum$_Role_$1393_to_t_uint8_fromStack(value, pos) {\n        mstore(pos, convert_t_enum$_Role_$1393_to_t_uint8(value))\n    }\n\n    function abi_encode_t_bool_to_t_bool_fromStack(value, pos) {\n        mstore(pos, cleanup_t_bool(value))\n    }\n\n    function abi_encode_tuple_t_address_t_string_memory_ptr_t_string_memory_ptr_t_enum$_Role_$1393_t_bool__to_t_address_t_string_memory_ptr_t_string_memory_ptr_t_uint8_t_bool__fromStack_reversed(headStart , value4, value3, value2, value1, value0) -> tail {\n        tail := add(headStart, 160)\n\n        abi_encode_t_address_to_t_address_fromStack(value0,  add(headStart, 0))\n\n        mstore(add(headStart, 32), sub(tail, headStart))\n        tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value1,  tail)\n\n        mstore(add(headStart, 64), sub(tail, headStart))\n        tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value2,  tail)\n\n        abi_encode_t_enum$_Role_$1393_to_t_uint8_fromStack(value3,  add(headStart, 96))\n\n        abi_encode_t_bool_to_t_bool_fromStack(value4,  add(headStart, 128))\n\n    }\n\n    function abi_decode_tuple_t_addresst_enum$_Role_$1393(headStart, dataEnd) -> value0, value1 {\n        if slt(sub(dataEnd, headStart), 64) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_enum$_Role_$1393(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function store_literal_in_memory_e8173140ee502f5920635dd04a65f885d670da7decbfc95900b88afa296abc40(memPtr) {\n\n        mstore(add(memPtr, 0), \"User is already registered\")\n\n    }\n\n    function abi_encode_t_stringliteral_e8173140ee502f5920635dd04a65f885d670da7decbfc95900b88afa296abc40_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 26)\n        store_literal_in_memory_e8173140ee502f5920635dd04a65f885d670da7decbfc95900b88afa296abc40(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_e8173140ee502f5920635dd04a65f885d670da7decbfc95900b88afa296abc40__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_e8173140ee502f5920635dd04a65f885d670da7decbfc95900b88afa296abc40_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_5ee123eb543bdd8590077b2cb2e4bef09592d12358577ddeb1d319d63db03eeb(memPtr) {\n\n        mstore(add(memPtr, 0), \"Invalid role\")\n\n    }\n\n    function abi_encode_t_stringliteral_5ee123eb543bdd8590077b2cb2e4bef09592d12358577ddeb1d319d63db03eeb_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 12)\n        store_literal_in_memory_5ee123eb543bdd8590077b2cb2e4bef09592d12358577ddeb1d319d63db03eeb(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_5ee123eb543bdd8590077b2cb2e4bef09592d12358577ddeb1d319d63db03eeb__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_5ee123eb543bdd8590077b2cb2e4bef09592d12358577ddeb1d319d63db03eeb_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function panic_error_0x22() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x22)\n        revert(0, 0x24)\n    }\n\n    function extract_byte_array_length(data) -> length {\n        length := div(data, 2)\n        let outOfPlaceEncoding := and(data, 1)\n        if iszero(outOfPlaceEncoding) {\n            length := and(length, 0x7f)\n        }\n\n        if eq(outOfPlaceEncoding, lt(length, 32)) {\n            panic_error_0x22()\n        }\n    }\n\n    function array_dataslot_t_string_storage(ptr) -> data {\n        data := ptr\n\n        mstore(0, ptr)\n        data := keccak256(0, 0x20)\n\n    }\n\n    function divide_by_32_ceil(value) -> result {\n        result := div(add(value, 31), 32)\n    }\n\n    function shift_left_dynamic(bits, value) -> newValue {\n        newValue :=\n\n        mul(value, exp(2, bits))\n\n    }\n\n    function update_byte_slice_dynamic32(value, shiftBytes, toInsert) -> result {\n        let shiftBits := mul(shiftBytes, 8)\n        let mask := shift_left_dynamic(shiftBits, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff)\n        toInsert := shift_left_dynamic(shiftBits, toInsert)\n        value := and(value, not(mask))\n        result := or(value, and(toInsert, mask))\n    }\n\n    function cleanup_t_uint256(value) -> cleaned {\n        cleaned := value\n    }\n\n    function identity(value) -> ret {\n        ret := value\n    }\n\n    function convert_t_uint256_to_t_uint256(value) -> converted {\n        converted := cleanup_t_uint256(identity(cleanup_t_uint256(value)))\n    }\n\n    function prepare_store_t_uint256(value) -> ret {\n        ret := value\n    }\n\n    function update_storage_value_t_uint256_to_t_uint256(slot, offset, value_0) {\n        let convertedValue_0 := convert_t_uint256_to_t_uint256(value_0)\n        sstore(slot, update_byte_slice_dynamic32(sload(slot), offset, prepare_store_t_uint256(convertedValue_0)))\n    }\n\n    function zero_value_for_split_t_uint256() -> ret {\n        ret := 0\n    }\n\n    function storage_set_to_zero_t_uint256(slot, offset) {\n        let zero_0 := zero_value_for_split_t_uint256()\n        update_storage_value_t_uint256_to_t_uint256(slot, offset, zero_0)\n    }\n\n    function clear_storage_range_t_bytes1(start, end) {\n        for {} lt(start, end) { start := add(start, 1) }\n        {\n            storage_set_to_zero_t_uint256(start, 0)\n        }\n    }\n\n    function clean_up_bytearray_end_slots_t_string_storage(array, len, startIndex) {\n\n        if gt(len, 31) {\n            let dataArea := array_dataslot_t_string_storage(array)\n            let deleteStart := add(dataArea, divide_by_32_ceil(startIndex))\n            // If we are clearing array to be short byte array, we want to clear only data starting from array data area.\n            if lt(startIndex, 32) { deleteStart := dataArea }\n            clear_storage_range_t_bytes1(deleteStart, add(dataArea, divide_by_32_ceil(len)))\n        }\n\n    }\n\n    function shift_right_unsigned_dynamic(bits, value) -> newValue {\n        newValue :=\n\n        div(value, exp(2, bits))\n\n    }\n\n    function mask_bytes_dynamic(data, bytes) -> result {\n        let mask := not(shift_right_unsigned_dynamic(mul(8, bytes), not(0)))\n        result := and(data, mask)\n    }\n    function extract_used_part_and_set_length_of_short_byte_array(data, len) -> used {\n        // we want to save only elements that are part of the array after resizing\n        // others should be set to zero\n        data := mask_bytes_dynamic(data, len)\n        used := or(data, mul(2, len))\n    }\n    function copy_byte_array_to_storage_from_t_string_memory_ptr_to_t_string_storage(slot, src) {\n\n        let newLen := array_length_t_string_memory_ptr(src)\n        // Make sure array length is sane\n        if gt(newLen, 0xffffffffffffffff) { panic_error_0x41() }\n\n        let oldLen := extract_byte_array_length(sload(slot))\n\n        // potentially truncate data\n        clean_up_bytearray_end_slots_t_string_storage(slot, oldLen, newLen)\n\n        let srcOffset := 0\n\n        srcOffset := 0x20\n\n        switch gt(newLen, 31)\n        case 1 {\n            let loopEnd := and(newLen, not(0x1f))\n\n            let dstPtr := array_dataslot_t_string_storage(slot)\n            let i := 0\n            for { } lt(i, loopEnd) { i := add(i, 0x20) } {\n                sstore(dstPtr, mload(add(src, srcOffset)))\n                dstPtr := add(dstPtr, 1)\n                srcOffset := add(srcOffset, 32)\n            }\n            if lt(loopEnd, newLen) {\n                let lastValue := mload(add(src, srcOffset))\n                sstore(dstPtr, mask_bytes_dynamic(lastValue, and(newLen, 0x1f)))\n            }\n            sstore(slot, add(mul(newLen, 2), 1))\n        }\n        default {\n            let value := 0\n            if newLen {\n                value := mload(add(src, srcOffset))\n            }\n            sstore(slot, extract_used_part_and_set_length_of_short_byte_array(value, newLen))\n        }\n    }\n\n    function abi_encode_tuple_t_string_memory_ptr_t_enum$_Role_$1393__to_t_string_memory_ptr_t_uint8__fromStack_reversed(headStart , value1, value0) -> tail {\n        tail := add(headStart, 64)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value0,  tail)\n\n        abi_encode_t_enum$_Role_$1393_to_t_uint8_fromStack(value1,  add(headStart, 32))\n\n    }\n\n    function store_literal_in_memory_7407ae7c87c72ed4ff3e96e9a39d169b4f6f4c248ff3f4ac2723be024c6c567b(memPtr) {\n\n        mstore(add(memPtr, 0), \"User is not registered\")\n\n    }\n\n    function abi_encode_t_stringliteral_7407ae7c87c72ed4ff3e96e9a39d169b4f6f4c248ff3f4ac2723be024c6c567b_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 22)\n        store_literal_in_memory_7407ae7c87c72ed4ff3e96e9a39d169b4f6f4c248ff3f4ac2723be024c6c567b(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_7407ae7c87c72ed4ff3e96e9a39d169b4f6f4c248ff3f4ac2723be024c6c567b__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_7407ae7c87c72ed4ff3e96e9a39d169b4f6f4c248ff3f4ac2723be024c6c567b_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_53aebf4bed810d5f50f68cb9ca57df652325fa15cc92aa1e1a515a9ae448aaa7(memPtr) {\n\n        mstore(add(memPtr, 0), \"Access denied: Insufficient role\")\n\n    }\n\n    function abi_encode_t_stringliteral_53aebf4bed810d5f50f68cb9ca57df652325fa15cc92aa1e1a515a9ae448aaa7_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 32)\n        store_literal_in_memory_53aebf4bed810d5f50f68cb9ca57df652325fa15cc92aa1e1a515a9ae448aaa7(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_53aebf4bed810d5f50f68cb9ca57df652325fa15cc92aa1e1a515a9ae448aaa7__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_53aebf4bed810d5f50f68cb9ca57df652325fa15cc92aa1e1a515a9ae448aaa7_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function abi_encode_tuple_t_enum$_Role_$1393__to_t_uint8__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_enum$_Role_$1393_to_t_uint8_fromStack(value0,  add(headStart, 0))\n\n    }\n\n}\n",
+      "contents": "{\n\n    function allocate_unbounded() -> memPtr {\n        memPtr := mload(64)\n    }\n\n    function revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() {\n        revert(0, 0)\n    }\n\n    function revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() {\n        revert(0, 0)\n    }\n\n    function revert_error_1b9f4a0a5773e33b91aa01db23bf8c55fce1411167c872835e7fa00a4f17d46d() {\n        revert(0, 0)\n    }\n\n    function revert_error_987264b3b1d58a9c7f8255e93e81c77d86d6299019c33110a076957a3e06e2ae() {\n        revert(0, 0)\n    }\n\n    function round_up_to_mul_of_32(value) -> result {\n        result := and(add(value, 31), not(31))\n    }\n\n    function panic_error_0x41() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x41)\n        revert(0, 0x24)\n    }\n\n    function finalize_allocation(memPtr, size) {\n        let newFreePtr := add(memPtr, round_up_to_mul_of_32(size))\n        // protect against overflow\n        if or(gt(newFreePtr, 0xffffffffffffffff), lt(newFreePtr, memPtr)) { panic_error_0x41() }\n        mstore(64, newFreePtr)\n    }\n\n    function allocate_memory(size) -> memPtr {\n        memPtr := allocate_unbounded()\n        finalize_allocation(memPtr, size)\n    }\n\n    function array_allocation_size_t_string_memory_ptr(length) -> size {\n        // Make sure we can allocate memory without overflow\n        if gt(length, 0xffffffffffffffff) { panic_error_0x41() }\n\n        size := round_up_to_mul_of_32(length)\n\n        // add length slot\n        size := add(size, 0x20)\n\n    }\n\n    function copy_calldata_to_memory_with_cleanup(src, dst, length) {\n        calldatacopy(dst, src, length)\n        mstore(add(dst, length), 0)\n    }\n\n    function abi_decode_available_length_t_string_memory_ptr(src, length, end) -> array {\n        array := allocate_memory(array_allocation_size_t_string_memory_ptr(length))\n        mstore(array, length)\n        let dst := add(array, 0x20)\n        if gt(add(src, length), end) { revert_error_987264b3b1d58a9c7f8255e93e81c77d86d6299019c33110a076957a3e06e2ae() }\n        copy_calldata_to_memory_with_cleanup(src, dst, length)\n    }\n\n    // string\n    function abi_decode_t_string_memory_ptr(offset, end) -> array {\n        if iszero(slt(add(offset, 0x1f), end)) { revert_error_1b9f4a0a5773e33b91aa01db23bf8c55fce1411167c872835e7fa00a4f17d46d() }\n        let length := calldataload(offset)\n        array := abi_decode_available_length_t_string_memory_ptr(add(offset, 0x20), length, end)\n    }\n\n    function validator_revert_t_enum$_Role_$2295(value) {\n        if iszero(lt(value, 4)) { revert(0, 0) }\n    }\n\n    function abi_decode_t_enum$_Role_$2295(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_enum$_Role_$2295(value)\n    }\n\n    function abi_decode_tuple_t_string_memory_ptrt_string_memory_ptrt_enum$_Role_$2295(headStart, dataEnd) -> value0, value1, value2 {\n        if slt(sub(dataEnd, headStart), 96) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := calldataload(add(headStart, 0))\n            if gt(offset, 0xffffffffffffffff) { revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() }\n\n            value0 := abi_decode_t_string_memory_ptr(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := calldataload(add(headStart, 32))\n            if gt(offset, 0xffffffffffffffff) { revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() }\n\n            value1 := abi_decode_t_string_memory_ptr(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 64\n\n            value2 := abi_decode_t_enum$_Role_$2295(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function cleanup_t_uint160(value) -> cleaned {\n        cleaned := and(value, 0xffffffffffffffffffffffffffffffffffffffff)\n    }\n\n    function cleanup_t_address(value) -> cleaned {\n        cleaned := cleanup_t_uint160(value)\n    }\n\n    function validator_revert_t_address(value) {\n        if iszero(eq(value, cleanup_t_address(value))) { revert(0, 0) }\n    }\n\n    function abi_decode_t_address(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_address(value)\n    }\n\n    function abi_decode_tuple_t_address(headStart, dataEnd) -> value0 {\n        if slt(sub(dataEnd, headStart), 32) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function abi_encode_t_address_to_t_address(value, pos) {\n        mstore(pos, cleanup_t_address(value))\n    }\n\n    function array_length_t_string_memory_ptr(value) -> length {\n\n        length := mload(value)\n\n    }\n\n    function array_storeLengthForEncoding_t_string_memory_ptr(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function copy_memory_to_memory_with_cleanup(src, dst, length) {\n        let i := 0\n        for { } lt(i, length) { i := add(i, 32) }\n        {\n            mstore(add(dst, i), mload(add(src, i)))\n        }\n        mstore(add(dst, length), 0)\n    }\n\n    function abi_encode_t_string_memory_ptr_to_t_string_memory_ptr(value, pos) -> end {\n        let length := array_length_t_string_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_string_memory_ptr(pos, length)\n        copy_memory_to_memory_with_cleanup(add(value, 0x20), pos, length)\n        end := add(pos, round_up_to_mul_of_32(length))\n    }\n\n    function panic_error_0x21() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x21)\n        revert(0, 0x24)\n    }\n\n    function validator_assert_t_enum$_Role_$2295(value) {\n        if iszero(lt(value, 4)) { panic_error_0x21() }\n    }\n\n    function cleanup_t_enum$_Role_$2295(value) -> cleaned {\n        cleaned := value validator_assert_t_enum$_Role_$2295(value)\n    }\n\n    function convert_t_enum$_Role_$2295_to_t_uint8(value) -> converted {\n        converted := cleanup_t_enum$_Role_$2295(value)\n    }\n\n    function abi_encode_t_enum$_Role_$2295_to_t_uint8(value, pos) {\n        mstore(pos, convert_t_enum$_Role_$2295_to_t_uint8(value))\n    }\n\n    function cleanup_t_bool(value) -> cleaned {\n        cleaned := iszero(iszero(value))\n    }\n\n    function abi_encode_t_bool_to_t_bool(value, pos) {\n        mstore(pos, cleanup_t_bool(value))\n    }\n\n    // struct UserIdentityManagement.User -> struct UserIdentityManagement.User\n    function abi_encode_t_struct$_User_$2307_memory_ptr_to_t_struct$_User_$2307_memory_ptr_fromStack(value, pos)  -> end  {\n        let tail := add(pos, 0xa0)\n\n        {\n            // addr\n\n            let memberValue0 := mload(add(value, 0x00))\n            abi_encode_t_address_to_t_address(memberValue0, add(pos, 0x00))\n        }\n\n        {\n            // name\n\n            let memberValue0 := mload(add(value, 0x20))\n\n            mstore(add(pos, 0x20), sub(tail, pos))\n            tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr(memberValue0, tail)\n\n        }\n\n        {\n            // email\n\n            let memberValue0 := mload(add(value, 0x40))\n\n            mstore(add(pos, 0x40), sub(tail, pos))\n            tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr(memberValue0, tail)\n\n        }\n\n        {\n            // role\n\n            let memberValue0 := mload(add(value, 0x60))\n            abi_encode_t_enum$_Role_$2295_to_t_uint8(memberValue0, add(pos, 0x60))\n        }\n\n        {\n            // isRegistered\n\n            let memberValue0 := mload(add(value, 0x80))\n            abi_encode_t_bool_to_t_bool(memberValue0, add(pos, 0x80))\n        }\n\n        end := tail\n    }\n\n    function abi_encode_tuple_t_struct$_User_$2307_memory_ptr__to_t_struct$_User_$2307_memory_ptr__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_struct$_User_$2307_memory_ptr_to_t_struct$_User_$2307_memory_ptr_fromStack(value0,  tail)\n\n    }\n\n    function abi_encode_t_address_to_t_address_fromStack(value, pos) {\n        mstore(pos, cleanup_t_address(value))\n    }\n\n    function array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value, pos) -> end {\n        let length := array_length_t_string_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, length)\n        copy_memory_to_memory_with_cleanup(add(value, 0x20), pos, length)\n        end := add(pos, round_up_to_mul_of_32(length))\n    }\n\n    function abi_encode_t_enum$_Role_$2295_to_t_uint8_fromStack(value, pos) {\n        mstore(pos, convert_t_enum$_Role_$2295_to_t_uint8(value))\n    }\n\n    function abi_encode_t_bool_to_t_bool_fromStack(value, pos) {\n        mstore(pos, cleanup_t_bool(value))\n    }\n\n    function abi_encode_tuple_t_address_t_string_memory_ptr_t_string_memory_ptr_t_enum$_Role_$2295_t_bool__to_t_address_t_string_memory_ptr_t_string_memory_ptr_t_uint8_t_bool__fromStack_reversed(headStart , value4, value3, value2, value1, value0) -> tail {\n        tail := add(headStart, 160)\n\n        abi_encode_t_address_to_t_address_fromStack(value0,  add(headStart, 0))\n\n        mstore(add(headStart, 32), sub(tail, headStart))\n        tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value1,  tail)\n\n        mstore(add(headStart, 64), sub(tail, headStart))\n        tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value2,  tail)\n\n        abi_encode_t_enum$_Role_$2295_to_t_uint8_fromStack(value3,  add(headStart, 96))\n\n        abi_encode_t_bool_to_t_bool_fromStack(value4,  add(headStart, 128))\n\n    }\n\n    function abi_decode_tuple_t_addresst_enum$_Role_$2295(headStart, dataEnd) -> value0, value1 {\n        if slt(sub(dataEnd, headStart), 64) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_enum$_Role_$2295(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function store_literal_in_memory_e8173140ee502f5920635dd04a65f885d670da7decbfc95900b88afa296abc40(memPtr) {\n\n        mstore(add(memPtr, 0), \"User is already registered\")\n\n    }\n\n    function abi_encode_t_stringliteral_e8173140ee502f5920635dd04a65f885d670da7decbfc95900b88afa296abc40_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 26)\n        store_literal_in_memory_e8173140ee502f5920635dd04a65f885d670da7decbfc95900b88afa296abc40(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_e8173140ee502f5920635dd04a65f885d670da7decbfc95900b88afa296abc40__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_e8173140ee502f5920635dd04a65f885d670da7decbfc95900b88afa296abc40_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_5ee123eb543bdd8590077b2cb2e4bef09592d12358577ddeb1d319d63db03eeb(memPtr) {\n\n        mstore(add(memPtr, 0), \"Invalid role\")\n\n    }\n\n    function abi_encode_t_stringliteral_5ee123eb543bdd8590077b2cb2e4bef09592d12358577ddeb1d319d63db03eeb_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 12)\n        store_literal_in_memory_5ee123eb543bdd8590077b2cb2e4bef09592d12358577ddeb1d319d63db03eeb(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_5ee123eb543bdd8590077b2cb2e4bef09592d12358577ddeb1d319d63db03eeb__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_5ee123eb543bdd8590077b2cb2e4bef09592d12358577ddeb1d319d63db03eeb_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function panic_error_0x22() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x22)\n        revert(0, 0x24)\n    }\n\n    function extract_byte_array_length(data) -> length {\n        length := div(data, 2)\n        let outOfPlaceEncoding := and(data, 1)\n        if iszero(outOfPlaceEncoding) {\n            length := and(length, 0x7f)\n        }\n\n        if eq(outOfPlaceEncoding, lt(length, 32)) {\n            panic_error_0x22()\n        }\n    }\n\n    function array_dataslot_t_string_storage(ptr) -> data {\n        data := ptr\n\n        mstore(0, ptr)\n        data := keccak256(0, 0x20)\n\n    }\n\n    function divide_by_32_ceil(value) -> result {\n        result := div(add(value, 31), 32)\n    }\n\n    function shift_left_dynamic(bits, value) -> newValue {\n        newValue :=\n\n        mul(value, exp(2, bits))\n\n    }\n\n    function update_byte_slice_dynamic32(value, shiftBytes, toInsert) -> result {\n        let shiftBits := mul(shiftBytes, 8)\n        let mask := shift_left_dynamic(shiftBits, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff)\n        toInsert := shift_left_dynamic(shiftBits, toInsert)\n        value := and(value, not(mask))\n        result := or(value, and(toInsert, mask))\n    }\n\n    function cleanup_t_uint256(value) -> cleaned {\n        cleaned := value\n    }\n\n    function identity(value) -> ret {\n        ret := value\n    }\n\n    function convert_t_uint256_to_t_uint256(value) -> converted {\n        converted := cleanup_t_uint256(identity(cleanup_t_uint256(value)))\n    }\n\n    function prepare_store_t_uint256(value) -> ret {\n        ret := value\n    }\n\n    function update_storage_value_t_uint256_to_t_uint256(slot, offset, value_0) {\n        let convertedValue_0 := convert_t_uint256_to_t_uint256(value_0)\n        sstore(slot, update_byte_slice_dynamic32(sload(slot), offset, prepare_store_t_uint256(convertedValue_0)))\n    }\n\n    function zero_value_for_split_t_uint256() -> ret {\n        ret := 0\n    }\n\n    function storage_set_to_zero_t_uint256(slot, offset) {\n        let zero_0 := zero_value_for_split_t_uint256()\n        update_storage_value_t_uint256_to_t_uint256(slot, offset, zero_0)\n    }\n\n    function clear_storage_range_t_bytes1(start, end) {\n        for {} lt(start, end) { start := add(start, 1) }\n        {\n            storage_set_to_zero_t_uint256(start, 0)\n        }\n    }\n\n    function clean_up_bytearray_end_slots_t_string_storage(array, len, startIndex) {\n\n        if gt(len, 31) {\n            let dataArea := array_dataslot_t_string_storage(array)\n            let deleteStart := add(dataArea, divide_by_32_ceil(startIndex))\n            // If we are clearing array to be short byte array, we want to clear only data starting from array data area.\n            if lt(startIndex, 32) { deleteStart := dataArea }\n            clear_storage_range_t_bytes1(deleteStart, add(dataArea, divide_by_32_ceil(len)))\n        }\n\n    }\n\n    function shift_right_unsigned_dynamic(bits, value) -> newValue {\n        newValue :=\n\n        div(value, exp(2, bits))\n\n    }\n\n    function mask_bytes_dynamic(data, bytes) -> result {\n        let mask := not(shift_right_unsigned_dynamic(mul(8, bytes), not(0)))\n        result := and(data, mask)\n    }\n    function extract_used_part_and_set_length_of_short_byte_array(data, len) -> used {\n        // we want to save only elements that are part of the array after resizing\n        // others should be set to zero\n        data := mask_bytes_dynamic(data, len)\n        used := or(data, mul(2, len))\n    }\n    function copy_byte_array_to_storage_from_t_string_memory_ptr_to_t_string_storage(slot, src) {\n\n        let newLen := array_length_t_string_memory_ptr(src)\n        // Make sure array length is sane\n        if gt(newLen, 0xffffffffffffffff) { panic_error_0x41() }\n\n        let oldLen := extract_byte_array_length(sload(slot))\n\n        // potentially truncate data\n        clean_up_bytearray_end_slots_t_string_storage(slot, oldLen, newLen)\n\n        let srcOffset := 0\n\n        srcOffset := 0x20\n\n        switch gt(newLen, 31)\n        case 1 {\n            let loopEnd := and(newLen, not(0x1f))\n\n            let dstPtr := array_dataslot_t_string_storage(slot)\n            let i := 0\n            for { } lt(i, loopEnd) { i := add(i, 0x20) } {\n                sstore(dstPtr, mload(add(src, srcOffset)))\n                dstPtr := add(dstPtr, 1)\n                srcOffset := add(srcOffset, 32)\n            }\n            if lt(loopEnd, newLen) {\n                let lastValue := mload(add(src, srcOffset))\n                sstore(dstPtr, mask_bytes_dynamic(lastValue, and(newLen, 0x1f)))\n            }\n            sstore(slot, add(mul(newLen, 2), 1))\n        }\n        default {\n            let value := 0\n            if newLen {\n                value := mload(add(src, srcOffset))\n            }\n            sstore(slot, extract_used_part_and_set_length_of_short_byte_array(value, newLen))\n        }\n    }\n\n    function abi_encode_tuple_t_string_memory_ptr_t_enum$_Role_$2295__to_t_string_memory_ptr_t_uint8__fromStack_reversed(headStart , value1, value0) -> tail {\n        tail := add(headStart, 64)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value0,  tail)\n\n        abi_encode_t_enum$_Role_$2295_to_t_uint8_fromStack(value1,  add(headStart, 32))\n\n    }\n\n    function store_literal_in_memory_7407ae7c87c72ed4ff3e96e9a39d169b4f6f4c248ff3f4ac2723be024c6c567b(memPtr) {\n\n        mstore(add(memPtr, 0), \"User is not registered\")\n\n    }\n\n    function abi_encode_t_stringliteral_7407ae7c87c72ed4ff3e96e9a39d169b4f6f4c248ff3f4ac2723be024c6c567b_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 22)\n        store_literal_in_memory_7407ae7c87c72ed4ff3e96e9a39d169b4f6f4c248ff3f4ac2723be024c6c567b(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_7407ae7c87c72ed4ff3e96e9a39d169b4f6f4c248ff3f4ac2723be024c6c567b__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_7407ae7c87c72ed4ff3e96e9a39d169b4f6f4c248ff3f4ac2723be024c6c567b_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_53aebf4bed810d5f50f68cb9ca57df652325fa15cc92aa1e1a515a9ae448aaa7(memPtr) {\n\n        mstore(add(memPtr, 0), \"Access denied: Insufficient role\")\n\n    }\n\n    function abi_encode_t_stringliteral_53aebf4bed810d5f50f68cb9ca57df652325fa15cc92aa1e1a515a9ae448aaa7_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 32)\n        store_literal_in_memory_53aebf4bed810d5f50f68cb9ca57df652325fa15cc92aa1e1a515a9ae448aaa7(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_53aebf4bed810d5f50f68cb9ca57df652325fa15cc92aa1e1a515a9ae448aaa7__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_53aebf4bed810d5f50f68cb9ca57df652325fa15cc92aa1e1a515a9ae448aaa7_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function abi_encode_tuple_t_enum$_Role_$2295__to_t_uint8__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_enum$_Role_$2295_to_t_uint8_fromStack(value0,  add(headStart, 0))\n\n    }\n\n}\n",
       "id": 5,
       "language": "Yul",
       "name": "#utility.yul"
@@ -11867,15 +11867,15 @@
     "absolutePath": "project:/contracts/User.sol",
     "exportedSymbols": {
       "UserIdentityManagement": [
-        1584
+        2486
       ]
     },
-    "id": 1585,
+    "id": 2487,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1388,
+        "id": 2290,
         "literals": [
           "solidity",
           "^",
@@ -11892,9 +11892,9 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 1584,
+        "id": 2486,
         "linearizedBaseContracts": [
-          1584
+          2486
         ],
         "name": "UserIdentityManagement",
         "nameLocation": "69:22:4",
@@ -11902,31 +11902,31 @@
         "nodes": [
           {
             "canonicalName": "UserIdentityManagement.Role",
-            "id": 1393,
+            "id": 2295,
             "members": [
               {
-                "id": 1389,
+                "id": 2291,
                 "name": "Unregistered",
                 "nameLocation": "138:12:4",
                 "nodeType": "EnumValue",
                 "src": "138:12:4"
               },
               {
-                "id": 1390,
+                "id": 2292,
                 "name": "PatentHolder",
                 "nameLocation": "152:12:4",
                 "nodeType": "EnumValue",
                 "src": "152:12:4"
               },
               {
-                "id": 1391,
+                "id": 2293,
                 "name": "Buyer",
                 "nameLocation": "166:5:4",
                 "nodeType": "EnumValue",
                 "src": "166:5:4"
               },
               {
-                "id": 1392,
+                "id": 2294,
                 "name": "Licensor",
                 "nameLocation": "173:8:4",
                 "nodeType": "EnumValue",
@@ -11940,16 +11940,16 @@
           },
           {
             "canonicalName": "UserIdentityManagement.User",
-            "id": 1405,
+            "id": 2307,
             "members": [
               {
                 "constant": false,
-                "id": 1395,
+                "id": 2297,
                 "mutability": "mutable",
                 "name": "addr",
                 "nameLocation": "252:4:4",
                 "nodeType": "VariableDeclaration",
-                "scope": 1405,
+                "scope": 2307,
                 "src": "244:12:4",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -11958,7 +11958,7 @@
                   "typeString": "address"
                 },
                 "typeName": {
-                  "id": 1394,
+                  "id": 2296,
                   "name": "address",
                   "nodeType": "ElementaryTypeName",
                   "src": "244:7:4",
@@ -11972,12 +11972,12 @@
               },
               {
                 "constant": false,
-                "id": 1397,
+                "id": 2299,
                 "mutability": "mutable",
                 "name": "name",
                 "nameLocation": "296:4:4",
                 "nodeType": "VariableDeclaration",
-                "scope": 1405,
+                "scope": 2307,
                 "src": "289:11:4",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -11986,7 +11986,7 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 1396,
+                  "id": 2298,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "289:6:4",
@@ -11999,12 +11999,12 @@
               },
               {
                 "constant": false,
-                "id": 1399,
+                "id": 2301,
                 "mutability": "mutable",
                 "name": "email",
                 "nameLocation": "338:5:4",
                 "nodeType": "VariableDeclaration",
-                "scope": 1405,
+                "scope": 2307,
                 "src": "331:12:4",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -12013,7 +12013,7 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 1398,
+                  "id": 2300,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "331:6:4",
@@ -12026,36 +12026,36 @@
               },
               {
                 "constant": false,
-                "id": 1402,
+                "id": 2304,
                 "mutability": "mutable",
                 "name": "role",
                 "nameLocation": "382:4:4",
                 "nodeType": "VariableDeclaration",
-                "scope": 1405,
+                "scope": 2307,
                 "src": "377:9:4",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_enum$_Role_$1393",
+                  "typeIdentifier": "t_enum$_Role_$2295",
                   "typeString": "enum UserIdentityManagement.Role"
                 },
                 "typeName": {
-                  "id": 1401,
+                  "id": 2303,
                   "nodeType": "UserDefinedTypeName",
                   "pathNode": {
-                    "id": 1400,
+                    "id": 2302,
                     "name": "Role",
                     "nameLocations": [
                       "377:4:4"
                     ],
                     "nodeType": "IdentifierPath",
-                    "referencedDeclaration": 1393,
+                    "referencedDeclaration": 2295,
                     "src": "377:4:4"
                   },
-                  "referencedDeclaration": 1393,
+                  "referencedDeclaration": 2295,
                   "src": "377:4:4",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_enum$_Role_$1393",
+                    "typeIdentifier": "t_enum$_Role_$2295",
                     "typeString": "enum UserIdentityManagement.Role"
                   }
                 },
@@ -12063,12 +12063,12 @@
               },
               {
                 "constant": false,
-                "id": 1404,
+                "id": 2306,
                 "mutability": "mutable",
                 "name": "isRegistered",
                 "nameLocation": "427:12:4",
                 "nodeType": "VariableDeclaration",
-                "scope": 1405,
+                "scope": 2307,
                 "src": "422:17:4",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -12077,7 +12077,7 @@
                   "typeString": "bool"
                 },
                 "typeName": {
-                  "id": 1403,
+                  "id": 2305,
                   "name": "bool",
                   "nodeType": "ElementaryTypeName",
                   "src": "422:4:4",
@@ -12092,32 +12092,32 @@
             "name": "User",
             "nameLocation": "228:4:4",
             "nodeType": "StructDefinition",
-            "scope": 1584,
+            "scope": 2486,
             "src": "221:243:4",
             "visibility": "public"
           },
           {
             "constant": false,
             "functionSelector": "a87430ba",
-            "id": 1410,
+            "id": 2312,
             "mutability": "mutable",
             "name": "users",
             "nameLocation": "553:5:4",
             "nodeType": "VariableDeclaration",
-            "scope": 1584,
+            "scope": 2486,
             "src": "521:37:4",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_User_$1405_storage_$",
+              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_User_$2307_storage_$",
               "typeString": "mapping(address => struct UserIdentityManagement.User)"
             },
             "typeName": {
-              "id": 1409,
+              "id": 2311,
               "keyName": "",
               "keyNameLocation": "-1:-1:-1",
               "keyType": {
-                "id": 1406,
+                "id": 2308,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
                 "src": "529:7:4",
@@ -12129,28 +12129,28 @@
               "nodeType": "Mapping",
               "src": "521:24:4",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_User_$1405_storage_$",
+                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_User_$2307_storage_$",
                 "typeString": "mapping(address => struct UserIdentityManagement.User)"
               },
               "valueName": "",
               "valueNameLocation": "-1:-1:-1",
               "valueType": {
-                "id": 1408,
+                "id": 2310,
                 "nodeType": "UserDefinedTypeName",
                 "pathNode": {
-                  "id": 1407,
+                  "id": 2309,
                   "name": "User",
                   "nameLocations": [
                     "540:4:4"
                   ],
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 1405,
+                  "referencedDeclaration": 2307,
                   "src": "540:4:4"
                 },
-                "referencedDeclaration": 1405,
+                "referencedDeclaration": 2307,
                 "src": "540:4:4",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_User_$1405_storage_ptr",
+                  "typeIdentifier": "t_struct$_User_$2307_storage_ptr",
                   "typeString": "struct UserIdentityManagement.User"
                 }
               }
@@ -12160,23 +12160,23 @@
           {
             "anonymous": false,
             "eventSelector": "c2e5d5da58bd71d1a2d14cdef02a4256d971b728088f8190d067ccfbae3bd73e",
-            "id": 1419,
+            "id": 2321,
             "name": "UserRegistered",
             "nameLocation": "588:14:4",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 1418,
+              "id": 2320,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1412,
+                  "id": 2314,
                   "indexed": true,
                   "mutability": "mutable",
                   "name": "userAddress",
                   "nameLocation": "619:11:4",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1419,
+                  "scope": 2321,
                   "src": "603:27:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -12185,7 +12185,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1411,
+                    "id": 2313,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "603:7:4",
@@ -12199,13 +12199,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 1414,
+                  "id": 2316,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "name",
                   "nameLocation": "639:4:4",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1419,
+                  "scope": 2321,
                   "src": "632:11:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -12214,7 +12214,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 1413,
+                    "id": 2315,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "632:6:4",
@@ -12227,37 +12227,37 @@
                 },
                 {
                   "constant": false,
-                  "id": 1417,
+                  "id": 2319,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "role",
                   "nameLocation": "650:4:4",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1419,
+                  "scope": 2321,
                   "src": "645:9:4",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_enum$_Role_$1393",
+                    "typeIdentifier": "t_enum$_Role_$2295",
                     "typeString": "enum UserIdentityManagement.Role"
                   },
                   "typeName": {
-                    "id": 1416,
+                    "id": 2318,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 1415,
+                      "id": 2317,
                       "name": "Role",
                       "nameLocations": [
                         "645:4:4"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 1393,
+                      "referencedDeclaration": 2295,
                       "src": "645:4:4"
                     },
-                    "referencedDeclaration": 1393,
+                    "referencedDeclaration": 2295,
                     "src": "645:4:4",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_enum$_Role_$1393",
+                      "typeIdentifier": "t_enum$_Role_$2295",
                       "typeString": "enum UserIdentityManagement.Role"
                     }
                   },
@@ -12271,23 +12271,23 @@
           {
             "anonymous": false,
             "eventSelector": "c3f8f61911a1537261f77e2703626e158e299a98e341024ecaa26bbd1d884c64",
-            "id": 1426,
+            "id": 2328,
             "name": "RoleUpdated",
             "nameLocation": "668:11:4",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 1425,
+              "id": 2327,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1421,
+                  "id": 2323,
                   "indexed": true,
                   "mutability": "mutable",
                   "name": "userAddress",
                   "nameLocation": "696:11:4",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1426,
+                  "scope": 2328,
                   "src": "680:27:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -12296,7 +12296,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1420,
+                    "id": 2322,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "680:7:4",
@@ -12310,37 +12310,37 @@
                 },
                 {
                   "constant": false,
-                  "id": 1424,
+                  "id": 2326,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "newRole",
                   "nameLocation": "714:7:4",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1426,
+                  "scope": 2328,
                   "src": "709:12:4",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_enum$_Role_$1393",
+                    "typeIdentifier": "t_enum$_Role_$2295",
                     "typeString": "enum UserIdentityManagement.Role"
                   },
                   "typeName": {
-                    "id": 1423,
+                    "id": 2325,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 1422,
+                      "id": 2324,
                       "name": "Role",
                       "nameLocations": [
                         "709:4:4"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 1393,
+                      "referencedDeclaration": 2295,
                       "src": "709:4:4"
                     },
-                    "referencedDeclaration": 1393,
+                    "referencedDeclaration": 2295,
                     "src": "709:4:4",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_enum$_Role_$1393",
+                      "typeIdentifier": "t_enum$_Role_$2295",
                       "typeString": "enum UserIdentityManagement.Role"
                     }
                   },
@@ -12353,7 +12353,7 @@
           },
           {
             "body": {
-              "id": 1438,
+              "id": 2340,
               "nodeType": "Block",
               "src": "805:96:4",
               "statements": [
@@ -12363,21 +12363,21 @@
                       {
                         "expression": {
                           "baseExpression": {
-                            "id": 1429,
+                            "id": 2331,
                             "name": "users",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1410,
+                            "referencedDeclaration": 2312,
                             "src": "824:5:4",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_User_$1405_storage_$",
+                              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_User_$2307_storage_$",
                               "typeString": "mapping(address => struct UserIdentityManagement.User storage ref)"
                             }
                           },
-                          "id": 1432,
+                          "id": 2334,
                           "indexExpression": {
                             "expression": {
-                              "id": 1430,
+                              "id": 2332,
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
@@ -12388,7 +12388,7 @@
                                 "typeString": "msg"
                               }
                             },
-                            "id": 1431,
+                            "id": 2333,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -12409,11 +12409,11 @@
                           "nodeType": "IndexAccess",
                           "src": "824:17:4",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_User_$1405_storage",
+                            "typeIdentifier": "t_struct$_User_$2307_storage",
                             "typeString": "struct UserIdentityManagement.User storage ref"
                           }
                         },
-                        "id": 1433,
+                        "id": 2335,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
@@ -12421,7 +12421,7 @@
                         "memberLocation": "842:12:4",
                         "memberName": "isRegistered",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 1404,
+                        "referencedDeclaration": 2306,
                         "src": "824:30:4",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
@@ -12430,7 +12430,7 @@
                       },
                       {
                         "hexValue": "55736572206973206e6f742072656769737465726564",
-                        "id": 1434,
+                        "id": 2336,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -12456,7 +12456,7 @@
                           "typeString": "literal_string \"User is not registered\""
                         }
                       ],
-                      "id": 1428,
+                      "id": 2330,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -12470,7 +12470,7 @@
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 1435,
+                    "id": 2337,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -12486,23 +12486,23 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1436,
+                  "id": 2338,
                   "nodeType": "ExpressionStatement",
                   "src": "816:65:4"
                 },
                 {
-                  "id": 1437,
+                  "id": 2339,
                   "nodeType": "PlaceholderStatement",
                   "src": "892:1:4"
                 }
               ]
             },
-            "id": 1439,
+            "id": 2341,
             "name": "onlyRegistered",
             "nameLocation": "788:14:4",
             "nodeType": "ModifierDefinition",
             "parameters": {
-              "id": 1427,
+              "id": 2329,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "802:2:4"
@@ -12513,7 +12513,7 @@
           },
           {
             "body": {
-              "id": 1456,
+              "id": 2358,
               "nodeType": "Block",
               "src": "994:114:4",
               "statements": [
@@ -12522,10 +12522,10 @@
                     "arguments": [
                       {
                         "commonType": {
-                          "typeIdentifier": "t_enum$_Role_$1393",
+                          "typeIdentifier": "t_enum$_Role_$2295",
                           "typeString": "enum UserIdentityManagement.Role"
                         },
-                        "id": 1451,
+                        "id": 2353,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -12533,21 +12533,21 @@
                         "leftExpression": {
                           "expression": {
                             "baseExpression": {
-                              "id": 1445,
+                              "id": 2347,
                               "name": "users",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 1410,
+                              "referencedDeclaration": 2312,
                               "src": "1013:5:4",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_User_$1405_storage_$",
+                                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_User_$2307_storage_$",
                                 "typeString": "mapping(address => struct UserIdentityManagement.User storage ref)"
                               }
                             },
-                            "id": 1448,
+                            "id": 2350,
                             "indexExpression": {
                               "expression": {
-                                "id": 1446,
+                                "id": 2348,
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
@@ -12558,7 +12558,7 @@
                                   "typeString": "msg"
                                 }
                               },
-                              "id": 1447,
+                              "id": 2349,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
@@ -12579,11 +12579,11 @@
                             "nodeType": "IndexAccess",
                             "src": "1013:17:4",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_User_$1405_storage",
+                              "typeIdentifier": "t_struct$_User_$2307_storage",
                               "typeString": "struct UserIdentityManagement.User storage ref"
                             }
                           },
-                          "id": 1449,
+                          "id": 2351,
                           "isConstant": false,
                           "isLValue": true,
                           "isPure": false,
@@ -12591,24 +12591,24 @@
                           "memberLocation": "1031:4:4",
                           "memberName": "role",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 1402,
+                          "referencedDeclaration": 2304,
                           "src": "1013:22:4",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_enum$_Role_$1393",
+                            "typeIdentifier": "t_enum$_Role_$2295",
                             "typeString": "enum UserIdentityManagement.Role"
                           }
                         },
                         "nodeType": "BinaryOperation",
                         "operator": "==",
                         "rightExpression": {
-                          "id": 1450,
+                          "id": 2352,
                           "name": "requiredRole",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1442,
+                          "referencedDeclaration": 2344,
                           "src": "1039:12:4",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_enum$_Role_$1393",
+                            "typeIdentifier": "t_enum$_Role_$2295",
                             "typeString": "enum UserIdentityManagement.Role"
                           }
                         },
@@ -12620,7 +12620,7 @@
                       },
                       {
                         "hexValue": "4163636573732064656e6965643a20496e73756666696369656e7420726f6c65",
-                        "id": 1452,
+                        "id": 2354,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -12646,7 +12646,7 @@
                           "typeString": "literal_string \"Access denied: Insufficient role\""
                         }
                       ],
-                      "id": 1444,
+                      "id": 2346,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -12660,7 +12660,7 @@
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 1453,
+                    "id": 2355,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -12676,57 +12676,57 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1454,
+                  "id": 2356,
                   "nodeType": "ExpressionStatement",
                   "src": "1005:83:4"
                 },
                 {
-                  "id": 1455,
+                  "id": 2357,
                   "nodeType": "PlaceholderStatement",
                   "src": "1099:1:4"
                 }
               ]
             },
-            "id": 1457,
+            "id": 2359,
             "name": "onlyRole",
             "nameLocation": "966:8:4",
             "nodeType": "ModifierDefinition",
             "parameters": {
-              "id": 1443,
+              "id": 2345,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1442,
+                  "id": 2344,
                   "mutability": "mutable",
                   "name": "requiredRole",
                   "nameLocation": "980:12:4",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1457,
+                  "scope": 2359,
                   "src": "975:17:4",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_enum$_Role_$1393",
+                    "typeIdentifier": "t_enum$_Role_$2295",
                     "typeString": "enum UserIdentityManagement.Role"
                   },
                   "typeName": {
-                    "id": 1441,
+                    "id": 2343,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 1440,
+                      "id": 2342,
                       "name": "Role",
                       "nameLocations": [
                         "975:4:4"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 1393,
+                      "referencedDeclaration": 2295,
                       "src": "975:4:4"
                     },
-                    "referencedDeclaration": 1393,
+                    "referencedDeclaration": 2295,
                     "src": "975:4:4",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_enum$_Role_$1393",
+                      "typeIdentifier": "t_enum$_Role_$2295",
                       "typeString": "enum UserIdentityManagement.Role"
                     }
                   },
@@ -12741,7 +12741,7 @@
           },
           {
             "body": {
-              "id": 1506,
+              "id": 2408,
               "nodeType": "Block",
               "src": "1218:397:4",
               "statements": [
@@ -12749,7 +12749,7 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 1473,
+                        "id": 2375,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -12761,21 +12761,21 @@
                         "subExpression": {
                           "expression": {
                             "baseExpression": {
-                              "id": 1468,
+                              "id": 2370,
                               "name": "users",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 1410,
+                              "referencedDeclaration": 2312,
                               "src": "1238:5:4",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_User_$1405_storage_$",
+                                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_User_$2307_storage_$",
                                 "typeString": "mapping(address => struct UserIdentityManagement.User storage ref)"
                               }
                             },
-                            "id": 1471,
+                            "id": 2373,
                             "indexExpression": {
                               "expression": {
-                                "id": 1469,
+                                "id": 2371,
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
@@ -12786,7 +12786,7 @@
                                   "typeString": "msg"
                                 }
                               },
-                              "id": 1470,
+                              "id": 2372,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
@@ -12807,11 +12807,11 @@
                             "nodeType": "IndexAccess",
                             "src": "1238:17:4",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_User_$1405_storage",
+                              "typeIdentifier": "t_struct$_User_$2307_storage",
                               "typeString": "struct UserIdentityManagement.User storage ref"
                             }
                           },
-                          "id": 1472,
+                          "id": 2374,
                           "isConstant": false,
                           "isLValue": true,
                           "isPure": false,
@@ -12819,7 +12819,7 @@
                           "memberLocation": "1256:12:4",
                           "memberName": "isRegistered",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 1404,
+                          "referencedDeclaration": 2306,
                           "src": "1238:30:4",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
@@ -12833,7 +12833,7 @@
                       },
                       {
                         "hexValue": "5573657220697320616c72656164792072656769737465726564",
-                        "id": 1474,
+                        "id": 2376,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -12859,7 +12859,7 @@
                           "typeString": "literal_string \"User is already registered\""
                         }
                       ],
-                      "id": 1467,
+                      "id": 2369,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -12873,7 +12873,7 @@
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 1475,
+                    "id": 2377,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -12889,7 +12889,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1476,
+                  "id": 2378,
                   "nodeType": "ExpressionStatement",
                   "src": "1229:70:4"
                 },
@@ -12898,23 +12898,23 @@
                     "arguments": [
                       {
                         "commonType": {
-                          "typeIdentifier": "t_enum$_Role_$1393",
+                          "typeIdentifier": "t_enum$_Role_$2295",
                           "typeString": "enum UserIdentityManagement.Role"
                         },
-                        "id": 1481,
+                        "id": 2383,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "leftExpression": {
-                          "id": 1478,
+                          "id": 2380,
                           "name": "role",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1464,
+                          "referencedDeclaration": 2366,
                           "src": "1318:4:4",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_enum$_Role_$1393",
+                            "typeIdentifier": "t_enum$_Role_$2295",
                             "typeString": "enum UserIdentityManagement.Role"
                           }
                         },
@@ -12922,18 +12922,18 @@
                         "operator": "!=",
                         "rightExpression": {
                           "expression": {
-                            "id": 1479,
+                            "id": 2381,
                             "name": "Role",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1393,
+                            "referencedDeclaration": 2295,
                             "src": "1326:4:4",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_type$_t_enum$_Role_$1393_$",
+                              "typeIdentifier": "t_type$_t_enum$_Role_$2295_$",
                               "typeString": "type(enum UserIdentityManagement.Role)"
                             }
                           },
-                          "id": 1480,
+                          "id": 2382,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -12941,10 +12941,10 @@
                           "memberLocation": "1331:12:4",
                           "memberName": "Unregistered",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 1389,
+                          "referencedDeclaration": 2291,
                           "src": "1326:17:4",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_enum$_Role_$1393",
+                            "typeIdentifier": "t_enum$_Role_$2295",
                             "typeString": "enum UserIdentityManagement.Role"
                           }
                         },
@@ -12956,7 +12956,7 @@
                       },
                       {
                         "hexValue": "496e76616c696420726f6c65",
-                        "id": 1482,
+                        "id": 2384,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -12982,7 +12982,7 @@
                           "typeString": "literal_string \"Invalid role\""
                         }
                       ],
-                      "id": 1477,
+                      "id": 2379,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -12996,7 +12996,7 @@
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 1483,
+                    "id": 2385,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -13012,34 +13012,34 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1484,
+                  "id": 2386,
                   "nodeType": "ExpressionStatement",
                   "src": "1310:50:4"
                 },
                 {
                   "expression": {
-                    "id": 1497,
+                    "id": 2399,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "baseExpression": {
-                        "id": 1485,
+                        "id": 2387,
                         "name": "users",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1410,
+                        "referencedDeclaration": 2312,
                         "src": "1373:5:4",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_User_$1405_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_User_$2307_storage_$",
                           "typeString": "mapping(address => struct UserIdentityManagement.User storage ref)"
                         }
                       },
-                      "id": 1488,
+                      "id": 2390,
                       "indexExpression": {
                         "expression": {
-                          "id": 1486,
+                          "id": 2388,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -13050,7 +13050,7 @@
                             "typeString": "msg"
                           }
                         },
-                        "id": 1487,
+                        "id": 2389,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -13071,7 +13071,7 @@
                       "nodeType": "IndexAccess",
                       "src": "1373:17:4",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_User_$1405_storage",
+                        "typeIdentifier": "t_struct$_User_$2307_storage",
                         "typeString": "struct UserIdentityManagement.User storage ref"
                       }
                     },
@@ -13081,7 +13081,7 @@
                       "arguments": [
                         {
                           "expression": {
-                            "id": 1490,
+                            "id": 2392,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
@@ -13092,7 +13092,7 @@
                               "typeString": "msg"
                             }
                           },
-                          "id": 1491,
+                          "id": 2393,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -13107,11 +13107,11 @@
                           }
                         },
                         {
-                          "id": 1492,
+                          "id": 2394,
                           "name": "name",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1459,
+                          "referencedDeclaration": 2361,
                           "src": "1450:4:4",
                           "typeDescriptions": {
                             "typeIdentifier": "t_string_memory_ptr",
@@ -13119,11 +13119,11 @@
                           }
                         },
                         {
-                          "id": 1493,
+                          "id": 2395,
                           "name": "email",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1461,
+                          "referencedDeclaration": 2363,
                           "src": "1476:5:4",
                           "typeDescriptions": {
                             "typeIdentifier": "t_string_memory_ptr",
@@ -13131,20 +13131,20 @@
                           }
                         },
                         {
-                          "id": 1494,
+                          "id": 2396,
                           "name": "role",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1464,
+                          "referencedDeclaration": 2366,
                           "src": "1502:4:4",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_enum$_Role_$1393",
+                            "typeIdentifier": "t_enum$_Role_$2295",
                             "typeString": "enum UserIdentityManagement.Role"
                           }
                         },
                         {
                           "hexValue": "74727565",
-                          "id": 1495,
+                          "id": 2397,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -13174,7 +13174,7 @@
                             "typeString": "string memory"
                           },
                           {
-                            "typeIdentifier": "t_enum$_Role_$1393",
+                            "typeIdentifier": "t_enum$_Role_$2295",
                             "typeString": "enum UserIdentityManagement.Role"
                           },
                           {
@@ -13182,18 +13182,18 @@
                             "typeString": "bool"
                           }
                         ],
-                        "id": 1489,
+                        "id": 2391,
                         "name": "User",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1405,
+                        "referencedDeclaration": 2307,
                         "src": "1393:4:4",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_struct$_User_$1405_storage_ptr_$",
+                          "typeIdentifier": "t_type$_t_struct$_User_$2307_storage_ptr_$",
                           "typeString": "type(struct UserIdentityManagement.User storage pointer)"
                         }
                       },
-                      "id": 1496,
+                      "id": 2398,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -13217,17 +13217,17 @@
                       "src": "1393:158:4",
                       "tryCall": false,
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_User_$1405_memory_ptr",
+                        "typeIdentifier": "t_struct$_User_$2307_memory_ptr",
                         "typeString": "struct UserIdentityManagement.User memory"
                       }
                     },
                     "src": "1373:178:4",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_User_$1405_storage",
+                      "typeIdentifier": "t_struct$_User_$2307_storage",
                       "typeString": "struct UserIdentityManagement.User storage ref"
                     }
                   },
-                  "id": 1498,
+                  "id": 2400,
                   "nodeType": "ExpressionStatement",
                   "src": "1373:178:4"
                 },
@@ -13236,7 +13236,7 @@
                     "arguments": [
                       {
                         "expression": {
-                          "id": 1500,
+                          "id": 2402,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -13247,7 +13247,7 @@
                             "typeString": "msg"
                           }
                         },
-                        "id": 1501,
+                        "id": 2403,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -13262,11 +13262,11 @@
                         }
                       },
                       {
-                        "id": 1502,
+                        "id": 2404,
                         "name": "name",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1459,
+                        "referencedDeclaration": 2361,
                         "src": "1596:4:4",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
@@ -13274,14 +13274,14 @@
                         }
                       },
                       {
-                        "id": 1503,
+                        "id": 2405,
                         "name": "role",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1464,
+                        "referencedDeclaration": 2366,
                         "src": "1602:4:4",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_enum$_Role_$1393",
+                          "typeIdentifier": "t_enum$_Role_$2295",
                           "typeString": "enum UserIdentityManagement.Role"
                         }
                       }
@@ -13297,22 +13297,22 @@
                           "typeString": "string memory"
                         },
                         {
-                          "typeIdentifier": "t_enum$_Role_$1393",
+                          "typeIdentifier": "t_enum$_Role_$2295",
                           "typeString": "enum UserIdentityManagement.Role"
                         }
                       ],
-                      "id": 1499,
+                      "id": 2401,
                       "name": "UserRegistered",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1419,
+                      "referencedDeclaration": 2321,
                       "src": "1569:14:4",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_string_memory_ptr_$_t_enum$_Role_$1393_$returns$__$",
+                        "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_string_memory_ptr_$_t_enum$_Role_$2295_$returns$__$",
                         "typeString": "function (address,string memory,enum UserIdentityManagement.Role)"
                       }
                     },
-                    "id": 1504,
+                    "id": 2406,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -13328,14 +13328,14 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1505,
+                  "id": 2407,
                   "nodeType": "EmitStatement",
                   "src": "1564:43:4"
                 }
               ]
             },
             "functionSelector": "2e17a931",
-            "id": 1507,
+            "id": 2409,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -13343,17 +13343,17 @@
             "nameLocation": "1146:12:4",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1465,
+              "id": 2367,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1459,
+                  "id": 2361,
                   "mutability": "mutable",
                   "name": "name",
                   "nameLocation": "1173:4:4",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1507,
+                  "scope": 2409,
                   "src": "1159:18:4",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -13362,7 +13362,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 1458,
+                    "id": 2360,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "1159:6:4",
@@ -13375,12 +13375,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 1461,
+                  "id": 2363,
                   "mutability": "mutable",
                   "name": "email",
                   "nameLocation": "1193:5:4",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1507,
+                  "scope": 2409,
                   "src": "1179:19:4",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -13389,7 +13389,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 1460,
+                    "id": 2362,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "1179:6:4",
@@ -13402,36 +13402,36 @@
                 },
                 {
                   "constant": false,
-                  "id": 1464,
+                  "id": 2366,
                   "mutability": "mutable",
                   "name": "role",
                   "nameLocation": "1205:4:4",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1507,
+                  "scope": 2409,
                   "src": "1200:9:4",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_enum$_Role_$1393",
+                    "typeIdentifier": "t_enum$_Role_$2295",
                     "typeString": "enum UserIdentityManagement.Role"
                   },
                   "typeName": {
-                    "id": 1463,
+                    "id": 2365,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 1462,
+                      "id": 2364,
                       "name": "Role",
                       "nameLocations": [
                         "1200:4:4"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 1393,
+                      "referencedDeclaration": 2295,
                       "src": "1200:4:4"
                     },
-                    "referencedDeclaration": 1393,
+                    "referencedDeclaration": 2295,
                     "src": "1200:4:4",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_enum$_Role_$1393",
+                      "typeIdentifier": "t_enum$_Role_$2295",
                       "typeString": "enum UserIdentityManagement.Role"
                     }
                   },
@@ -13441,12 +13441,12 @@
               "src": "1158:52:4"
             },
             "returnParameters": {
-              "id": 1466,
+              "id": 2368,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1218:0:4"
             },
-            "scope": 1584,
+            "scope": 2486,
             "src": "1137:478:4",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -13454,7 +13454,7 @@
           },
           {
             "body": {
-              "id": 1547,
+              "id": 2449,
               "nodeType": "Block",
               "src": "1744:246:4",
               "statements": [
@@ -13464,24 +13464,24 @@
                       {
                         "expression": {
                           "baseExpression": {
-                            "id": 1520,
+                            "id": 2422,
                             "name": "users",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1410,
+                            "referencedDeclaration": 2312,
                             "src": "1763:5:4",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_User_$1405_storage_$",
+                              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_User_$2307_storage_$",
                               "typeString": "mapping(address => struct UserIdentityManagement.User storage ref)"
                             }
                           },
-                          "id": 1522,
+                          "id": 2424,
                           "indexExpression": {
-                            "id": 1521,
+                            "id": 2423,
                             "name": "userAddress",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1509,
+                            "referencedDeclaration": 2411,
                             "src": "1769:11:4",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
@@ -13495,11 +13495,11 @@
                           "nodeType": "IndexAccess",
                           "src": "1763:18:4",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_User_$1405_storage",
+                            "typeIdentifier": "t_struct$_User_$2307_storage",
                             "typeString": "struct UserIdentityManagement.User storage ref"
                           }
                         },
-                        "id": 1523,
+                        "id": 2425,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
@@ -13507,7 +13507,7 @@
                         "memberLocation": "1782:12:4",
                         "memberName": "isRegistered",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 1404,
+                        "referencedDeclaration": 2306,
                         "src": "1763:31:4",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
@@ -13516,7 +13516,7 @@
                       },
                       {
                         "hexValue": "55736572206973206e6f742072656769737465726564",
-                        "id": 1524,
+                        "id": 2426,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -13542,7 +13542,7 @@
                           "typeString": "literal_string \"User is not registered\""
                         }
                       ],
-                      "id": 1519,
+                      "id": 2421,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -13556,7 +13556,7 @@
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 1525,
+                    "id": 2427,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -13572,7 +13572,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1526,
+                  "id": 2428,
                   "nodeType": "ExpressionStatement",
                   "src": "1755:66:4"
                 },
@@ -13581,23 +13581,23 @@
                     "arguments": [
                       {
                         "commonType": {
-                          "typeIdentifier": "t_enum$_Role_$1393",
+                          "typeIdentifier": "t_enum$_Role_$2295",
                           "typeString": "enum UserIdentityManagement.Role"
                         },
-                        "id": 1531,
+                        "id": 2433,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "leftExpression": {
-                          "id": 1528,
+                          "id": 2430,
                           "name": "newRole",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1512,
+                          "referencedDeclaration": 2414,
                           "src": "1840:7:4",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_enum$_Role_$1393",
+                            "typeIdentifier": "t_enum$_Role_$2295",
                             "typeString": "enum UserIdentityManagement.Role"
                           }
                         },
@@ -13605,18 +13605,18 @@
                         "operator": "!=",
                         "rightExpression": {
                           "expression": {
-                            "id": 1529,
+                            "id": 2431,
                             "name": "Role",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1393,
+                            "referencedDeclaration": 2295,
                             "src": "1851:4:4",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_type$_t_enum$_Role_$1393_$",
+                              "typeIdentifier": "t_type$_t_enum$_Role_$2295_$",
                               "typeString": "type(enum UserIdentityManagement.Role)"
                             }
                           },
-                          "id": 1530,
+                          "id": 2432,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -13624,10 +13624,10 @@
                           "memberLocation": "1856:12:4",
                           "memberName": "Unregistered",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 1389,
+                          "referencedDeclaration": 2291,
                           "src": "1851:17:4",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_enum$_Role_$1393",
+                            "typeIdentifier": "t_enum$_Role_$2295",
                             "typeString": "enum UserIdentityManagement.Role"
                           }
                         },
@@ -13639,7 +13639,7 @@
                       },
                       {
                         "hexValue": "496e76616c696420726f6c65",
-                        "id": 1532,
+                        "id": 2434,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -13665,7 +13665,7 @@
                           "typeString": "literal_string \"Invalid role\""
                         }
                       ],
-                      "id": 1527,
+                      "id": 2429,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -13679,7 +13679,7 @@
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 1533,
+                    "id": 2435,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -13695,13 +13695,13 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1534,
+                  "id": 2436,
                   "nodeType": "ExpressionStatement",
                   "src": "1832:53:4"
                 },
                 {
                   "expression": {
-                    "id": 1540,
+                    "id": 2442,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -13709,24 +13709,24 @@
                     "leftHandSide": {
                       "expression": {
                         "baseExpression": {
-                          "id": 1535,
+                          "id": 2437,
                           "name": "users",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1410,
+                          "referencedDeclaration": 2312,
                           "src": "1898:5:4",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_User_$1405_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_User_$2307_storage_$",
                             "typeString": "mapping(address => struct UserIdentityManagement.User storage ref)"
                           }
                         },
-                        "id": 1537,
+                        "id": 2439,
                         "indexExpression": {
-                          "id": 1536,
+                          "id": 2438,
                           "name": "userAddress",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1509,
+                          "referencedDeclaration": 2411,
                           "src": "1904:11:4",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
@@ -13740,11 +13740,11 @@
                         "nodeType": "IndexAccess",
                         "src": "1898:18:4",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_User_$1405_storage",
+                          "typeIdentifier": "t_struct$_User_$2307_storage",
                           "typeString": "struct UserIdentityManagement.User storage ref"
                         }
                       },
-                      "id": 1538,
+                      "id": 2440,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
@@ -13752,34 +13752,34 @@
                       "memberLocation": "1917:4:4",
                       "memberName": "role",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1402,
+                      "referencedDeclaration": 2304,
                       "src": "1898:23:4",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_enum$_Role_$1393",
+                        "typeIdentifier": "t_enum$_Role_$2295",
                         "typeString": "enum UserIdentityManagement.Role"
                       }
                     },
                     "nodeType": "Assignment",
                     "operator": "=",
                     "rightHandSide": {
-                      "id": 1539,
+                      "id": 2441,
                       "name": "newRole",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1512,
+                      "referencedDeclaration": 2414,
                       "src": "1924:7:4",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_enum$_Role_$1393",
+                        "typeIdentifier": "t_enum$_Role_$2295",
                         "typeString": "enum UserIdentityManagement.Role"
                       }
                     },
                     "src": "1898:33:4",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_enum$_Role_$1393",
+                      "typeIdentifier": "t_enum$_Role_$2295",
                       "typeString": "enum UserIdentityManagement.Role"
                     }
                   },
-                  "id": 1541,
+                  "id": 2443,
                   "nodeType": "ExpressionStatement",
                   "src": "1898:33:4"
                 },
@@ -13787,11 +13787,11 @@
                   "eventCall": {
                     "arguments": [
                       {
-                        "id": 1543,
+                        "id": 2445,
                         "name": "userAddress",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1509,
+                        "referencedDeclaration": 2411,
                         "src": "1961:11:4",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -13799,14 +13799,14 @@
                         }
                       },
                       {
-                        "id": 1544,
+                        "id": 2446,
                         "name": "newRole",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1512,
+                        "referencedDeclaration": 2414,
                         "src": "1974:7:4",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_enum$_Role_$1393",
+                          "typeIdentifier": "t_enum$_Role_$2295",
                           "typeString": "enum UserIdentityManagement.Role"
                         }
                       }
@@ -13818,22 +13818,22 @@
                           "typeString": "address"
                         },
                         {
-                          "typeIdentifier": "t_enum$_Role_$1393",
+                          "typeIdentifier": "t_enum$_Role_$2295",
                           "typeString": "enum UserIdentityManagement.Role"
                         }
                       ],
-                      "id": 1542,
+                      "id": 2444,
                       "name": "RoleUpdated",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1426,
+                      "referencedDeclaration": 2328,
                       "src": "1949:11:4",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_enum$_Role_$1393_$returns$__$",
+                        "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_enum$_Role_$2295_$returns$__$",
                         "typeString": "function (address,enum UserIdentityManagement.Role)"
                       }
                     },
-                    "id": 1545,
+                    "id": 2447,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -13849,14 +13849,14 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1546,
+                  "id": 2448,
                   "nodeType": "EmitStatement",
                   "src": "1944:38:4"
                 }
               ]
             },
             "functionSelector": "c291fe62",
-            "id": 1548,
+            "id": 2450,
             "implemented": true,
             "kind": "function",
             "modifiers": [
@@ -13864,18 +13864,18 @@
                 "arguments": [
                   {
                     "expression": {
-                      "id": 1515,
+                      "id": 2417,
                       "name": "Role",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1393,
+                      "referencedDeclaration": 2295,
                       "src": "1725:4:4",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_enum$_Role_$1393_$",
+                        "typeIdentifier": "t_type$_t_enum$_Role_$2295_$",
                         "typeString": "type(enum UserIdentityManagement.Role)"
                       }
                     },
-                    "id": 1516,
+                    "id": 2418,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
@@ -13883,24 +13883,24 @@
                     "memberLocation": "1730:12:4",
                     "memberName": "PatentHolder",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 1390,
+                    "referencedDeclaration": 2292,
                     "src": "1725:17:4",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_enum$_Role_$1393",
+                      "typeIdentifier": "t_enum$_Role_$2295",
                       "typeString": "enum UserIdentityManagement.Role"
                     }
                   }
                 ],
-                "id": 1517,
+                "id": 2419,
                 "kind": "modifierInvocation",
                 "modifierName": {
-                  "id": 1514,
+                  "id": 2416,
                   "name": "onlyRole",
                   "nameLocations": [
                     "1716:8:4"
                   ],
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 1457,
+                  "referencedDeclaration": 2359,
                   "src": "1716:8:4"
                 },
                 "nodeType": "ModifierInvocation",
@@ -13911,17 +13911,17 @@
             "nameLocation": "1659:14:4",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1513,
+              "id": 2415,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1509,
+                  "id": 2411,
                   "mutability": "mutable",
                   "name": "userAddress",
                   "nameLocation": "1682:11:4",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1548,
+                  "scope": 2450,
                   "src": "1674:19:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -13930,7 +13930,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1508,
+                    "id": 2410,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1674:7:4",
@@ -13944,36 +13944,36 @@
                 },
                 {
                   "constant": false,
-                  "id": 1512,
+                  "id": 2414,
                   "mutability": "mutable",
                   "name": "newRole",
                   "nameLocation": "1700:7:4",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1548,
+                  "scope": 2450,
                   "src": "1695:12:4",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_enum$_Role_$1393",
+                    "typeIdentifier": "t_enum$_Role_$2295",
                     "typeString": "enum UserIdentityManagement.Role"
                   },
                   "typeName": {
-                    "id": 1511,
+                    "id": 2413,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 1510,
+                      "id": 2412,
                       "name": "Role",
                       "nameLocations": [
                         "1695:4:4"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 1393,
+                      "referencedDeclaration": 2295,
                       "src": "1695:4:4"
                     },
-                    "referencedDeclaration": 1393,
+                    "referencedDeclaration": 2295,
                     "src": "1695:4:4",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_enum$_Role_$1393",
+                      "typeIdentifier": "t_enum$_Role_$2295",
                       "typeString": "enum UserIdentityManagement.Role"
                     }
                   },
@@ -13983,12 +13983,12 @@
               "src": "1673:35:4"
             },
             "returnParameters": {
-              "id": 1518,
+              "id": 2420,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1744:0:4"
             },
-            "scope": 1584,
+            "scope": 2486,
             "src": "1650:340:4",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -13996,7 +13996,7 @@
           },
           {
             "body": {
-              "id": 1568,
+              "id": 2470,
               "nodeType": "Block",
               "src": "2097:121:4",
               "statements": [
@@ -14006,24 +14006,24 @@
                       {
                         "expression": {
                           "baseExpression": {
-                            "id": 1557,
+                            "id": 2459,
                             "name": "users",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1410,
+                            "referencedDeclaration": 2312,
                             "src": "2116:5:4",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_User_$1405_storage_$",
+                              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_User_$2307_storage_$",
                               "typeString": "mapping(address => struct UserIdentityManagement.User storage ref)"
                             }
                           },
-                          "id": 1559,
+                          "id": 2461,
                           "indexExpression": {
-                            "id": 1558,
+                            "id": 2460,
                             "name": "userAddress",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1550,
+                            "referencedDeclaration": 2452,
                             "src": "2122:11:4",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
@@ -14037,11 +14037,11 @@
                           "nodeType": "IndexAccess",
                           "src": "2116:18:4",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_User_$1405_storage",
+                            "typeIdentifier": "t_struct$_User_$2307_storage",
                             "typeString": "struct UserIdentityManagement.User storage ref"
                           }
                         },
-                        "id": 1560,
+                        "id": 2462,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
@@ -14049,7 +14049,7 @@
                         "memberLocation": "2135:12:4",
                         "memberName": "isRegistered",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 1404,
+                        "referencedDeclaration": 2306,
                         "src": "2116:31:4",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
@@ -14058,7 +14058,7 @@
                       },
                       {
                         "hexValue": "55736572206973206e6f742072656769737465726564",
-                        "id": 1561,
+                        "id": 2463,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -14084,7 +14084,7 @@
                           "typeString": "literal_string \"User is not registered\""
                         }
                       ],
-                      "id": 1556,
+                      "id": 2458,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -14098,7 +14098,7 @@
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 1562,
+                    "id": 2464,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -14114,31 +14114,31 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1563,
+                  "id": 2465,
                   "nodeType": "ExpressionStatement",
                   "src": "2108:66:4"
                 },
                 {
                   "expression": {
                     "baseExpression": {
-                      "id": 1564,
+                      "id": 2466,
                       "name": "users",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1410,
+                      "referencedDeclaration": 2312,
                       "src": "2192:5:4",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_mapping$_t_address_$_t_struct$_User_$1405_storage_$",
+                        "typeIdentifier": "t_mapping$_t_address_$_t_struct$_User_$2307_storage_$",
                         "typeString": "mapping(address => struct UserIdentityManagement.User storage ref)"
                       }
                     },
-                    "id": 1566,
+                    "id": 2468,
                     "indexExpression": {
-                      "id": 1565,
+                      "id": 2467,
                       "name": "userAddress",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1550,
+                      "referencedDeclaration": 2452,
                       "src": "2198:11:4",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
@@ -14152,19 +14152,19 @@
                     "nodeType": "IndexAccess",
                     "src": "2192:18:4",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_User_$1405_storage",
+                      "typeIdentifier": "t_struct$_User_$2307_storage",
                       "typeString": "struct UserIdentityManagement.User storage ref"
                     }
                   },
-                  "functionReturnParameters": 1555,
-                  "id": 1567,
+                  "functionReturnParameters": 2457,
+                  "id": 2469,
                   "nodeType": "Return",
                   "src": "2185:25:4"
                 }
               ]
             },
             "functionSelector": "6f77926b",
-            "id": 1569,
+            "id": 2471,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -14172,17 +14172,17 @@
             "nameLocation": "2034:7:4",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1551,
+              "id": 2453,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1550,
+                  "id": 2452,
                   "mutability": "mutable",
                   "name": "userAddress",
                   "nameLocation": "2050:11:4",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1569,
+                  "scope": 2471,
                   "src": "2042:19:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -14191,7 +14191,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1549,
+                    "id": 2451,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "2042:7:4",
@@ -14207,41 +14207,41 @@
               "src": "2041:21:4"
             },
             "returnParameters": {
-              "id": 1555,
+              "id": 2457,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1554,
+                  "id": 2456,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1569,
+                  "scope": 2471,
                   "src": "2084:11:4",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_User_$1405_memory_ptr",
+                    "typeIdentifier": "t_struct$_User_$2307_memory_ptr",
                     "typeString": "struct UserIdentityManagement.User"
                   },
                   "typeName": {
-                    "id": 1553,
+                    "id": 2455,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 1552,
+                      "id": 2454,
                       "name": "User",
                       "nameLocations": [
                         "2084:4:4"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 1405,
+                      "referencedDeclaration": 2307,
                       "src": "2084:4:4"
                     },
-                    "referencedDeclaration": 1405,
+                    "referencedDeclaration": 2307,
                     "src": "2084:4:4",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_User_$1405_storage_ptr",
+                      "typeIdentifier": "t_struct$_User_$2307_storage_ptr",
                       "typeString": "struct UserIdentityManagement.User"
                     }
                   },
@@ -14250,7 +14250,7 @@
               ],
               "src": "2083:13:4"
             },
-            "scope": 1584,
+            "scope": 2486,
             "src": "2025:193:4",
             "stateMutability": "view",
             "virtual": false,
@@ -14258,13 +14258,13 @@
           },
           {
             "body": {
-              "id": 1576,
+              "id": 2478,
               "nodeType": "Block",
               "src": "2351:57:4",
               "statements": []
             },
             "functionSelector": "b736b43e",
-            "id": 1577,
+            "id": 2479,
             "implemented": true,
             "kind": "function",
             "modifiers": [
@@ -14272,18 +14272,18 @@
                 "arguments": [
                   {
                     "expression": {
-                      "id": 1572,
+                      "id": 2474,
                       "name": "Role",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1393,
+                      "referencedDeclaration": 2295,
                       "src": "2332:4:4",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_enum$_Role_$1393_$",
+                        "typeIdentifier": "t_type$_t_enum$_Role_$2295_$",
                         "typeString": "type(enum UserIdentityManagement.Role)"
                       }
                     },
-                    "id": 1573,
+                    "id": 2475,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
@@ -14291,24 +14291,24 @@
                     "memberLocation": "2337:12:4",
                     "memberName": "PatentHolder",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 1390,
+                    "referencedDeclaration": 2292,
                     "src": "2332:17:4",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_enum$_Role_$1393",
+                      "typeIdentifier": "t_enum$_Role_$2295",
                       "typeString": "enum UserIdentityManagement.Role"
                     }
                   }
                 ],
-                "id": 1574,
+                "id": 2476,
                 "kind": "modifierInvocation",
                 "modifierName": {
-                  "id": 1571,
+                  "id": 2473,
                   "name": "onlyRole",
                   "nameLocations": [
                     "2323:8:4"
                   ],
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 1457,
+                  "referencedDeclaration": 2359,
                   "src": "2323:8:4"
                 },
                 "nodeType": "ModifierInvocation",
@@ -14319,18 +14319,18 @@
             "nameLocation": "2289:24:4",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1570,
+              "id": 2472,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "2313:2:4"
             },
             "returnParameters": {
-              "id": 1575,
+              "id": 2477,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "2351:0:4"
             },
-            "scope": 1584,
+            "scope": 2486,
             "src": "2280:128:4",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -14338,27 +14338,27 @@
           },
           {
             "body": {
-              "id": 1582,
+              "id": 2484,
               "nodeType": "Block",
               "src": "2523:54:4",
               "statements": []
             },
             "functionSelector": "f4560052",
-            "id": 1583,
+            "id": 2485,
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
-                "id": 1580,
+                "id": 2482,
                 "kind": "modifierInvocation",
                 "modifierName": {
-                  "id": 1579,
+                  "id": 2481,
                   "name": "onlyRegistered",
                   "nameLocations": [
                     "2508:14:4"
                   ],
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 1439,
+                  "referencedDeclaration": 2341,
                   "src": "2508:14:4"
                 },
                 "nodeType": "ModifierInvocation",
@@ -14369,30 +14369,30 @@
             "nameLocation": "2476:22:4",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1578,
+              "id": 2480,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "2498:2:4"
             },
             "returnParameters": {
-              "id": 1581,
+              "id": 2483,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "2523:0:4"
             },
-            "scope": 1584,
+            "scope": 2486,
             "src": "2467:110:4",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 1585,
+        "scope": 2487,
         "src": "60:2520:4",
         "usedErrors": [],
         "usedEvents": [
-          1419,
-          1426
+          2321,
+          2328
         ]
       }
     ],
@@ -14406,12 +14406,12 @@
     "1734075976300": {
       "events": {},
       "links": {},
-      "address": "0x6DAE265f0e0A18A833fAB5f97e54c40D93d22743",
-      "transactionHash": "0xcf05635ecad8ebb496cef7f6f2d03424283e84df43ad89b8a9aa8c5058a97798"
+      "address": "0xFD836734fB8BA49dF38C400FA637b80eda98f3ff",
+      "transactionHash": "0x92bc47c05caba8527138c6f99817ba5a9c987b0bb1a0f800a90219486e6edeb7"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2024-12-21T12:05:21.005Z",
+  "updatedAt": "2024-12-21T19:06:09.244Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

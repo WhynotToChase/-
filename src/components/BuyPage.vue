@@ -46,8 +46,9 @@ let loading = ref(false);
 interface patent {patentID:string,patentDetail:string,price:number};
 let patents= ref<patent>({patentID:"",patentDetail:"",price:0});
 let loadingText = ref("");
+
 async function query() {
-  loading.value = true; // 开始查询时显示加载状态 
+  loading.value = true; // 开始查询时显示加载状态
   loadingText.value="交易订单生成中";
   try {
 	  //根据id查询专利的信息。

@@ -9,7 +9,8 @@
 
       <el-table :data="paginatedPatents" border id="c">
         <el-table-column fixed prop="patentID" label="专利ID" width="150" />
-        <el-table-column prop="patentDetail" label="专利描述" width="1200" show-overflow-tooltip />
+        <el-table-column prop="patentDetail" label="专利描述" width="1050" show-overflow-tooltip />
+        <el-table-column fixed prop="patentPrice" label="价格" width="150" />
         <el-table-column fixed="right" label="操作" width="100">
           <template #default="{row}">
             <el-button type="primary" size="small" @click="onsale(row)">出售</el-button>
@@ -29,55 +30,18 @@
         />
       </div>
     </div>
-    <div v-else id="m">
-      <div id='n'>
-        <div id="h">
-          <el-button type="primary" @click="back" id='j'>返回</el-button>
-          <h2>售卖专利</h2>
-          <div id ='j'></div>
-        </div>
-
-        <div id='i'>
-          <el-card v-for="patent in patents" :key="patent.patentID" id='k'>
-            <template #header>
-              <div>
-                <span>专利ID：{{patent.patentID}}</span>
-              </div>
-            </template>
-            <div id="l">
-              <el-scrollbar>
-                <el-text>专利描述：<br>{{patent.patentDetail}}</el-text>
-              </el-scrollbar>
-            </div>
-          </el-card>
-        </div>
-      </div>
-      <el-divider direction="vertical">
-        <el-icon><star-filled /></el-icon>
-      </el-divider>
-      <div id='o'>
-        <div>
-          <span>请输入价格：</span>
-          <el-input-number v-model="price" :precision="2" :step="100" />
-          <span>人民币/￥</span>
-        </div>
-        <div id='p'>
-          <el-input show-password placeholder="请输入密码" v-model="password" clearable></el-input>
-        </div>
-        <el-button type="warning" @click="comfirmSale">出售</el-button>
-      </div>
-    </div>
   </div>
 </template>
  
 <script setup name="PatentSell" lang="ts">
 import { ElMessage, ElMessageBox } from 'element-plus';
 import {computed, onMounted, ref} from 'vue';
-import {PatentMarket, web3} from "@/web3.ts";
+import {PatentMarket, web3, Patent} from "@/web3.ts";
 
 interface Patent {
   patentID: number;
   patentDetail: string;
+  patentPrice: number;
 }
 
 let patents = ref<Patent[]>([]);
@@ -90,8 +54,10 @@ const paginatedPatents = computed(() => {
   const end = start + pageSize.value;
   return patents.value.slice(start, end);
 });
+
 let loading=ref(false);
 let onsalepatent = ref<Patent | null>(null);
+
 function handlePageChange(page:number){
 	currentPage.value=page;
 }
@@ -101,11 +67,15 @@ async function getPatents(){
 	try {
 		//获取用户名下的专利
     // 获取当前用户地址
-    const accounts = await web3.eth.getAccounts();
-    const patentHolder = accounts[0];
-    console.log('patentHolder:', patentHolder);
+    const owner = localStorage.getItem("userAddress"); // 当前用户的地址
+
+    console.log('owner:', owner);
+
     // Call the contract's fetchPatentsCanSale function
-    const userPatentsForSale = await PatentMarket.methods.fetchPatentsCanSale(patentHolder).call();
+    const userPatentsForSale = await Patent.methods.fetchPatentsCanSale().call({
+      from: owner,
+      gas: "300000",
+    });
 
     console.log('userPatentsForSale:', userPatentsForSale);
 
@@ -113,7 +83,8 @@ async function getPatents(){
     if (Array.isArray(userPatentsForSale)) {
       patents.value = userPatentsForSale.map(patent => ({
         patentID: patent.patentId,
-        patentDetail: patent.description
+        patentDetail: patent.description,
+        patentPrice: patent.price
       }));
     } else {
       patents.value = [];
@@ -126,19 +97,35 @@ async function getPatents(){
 		loading.value=false; 		
 	}
 }
+
 onMounted(()=>{
 	loadingText.value="查询专利中";
 	getPatents();
 })
+
 function refresh(){
 	loadingText.value="查询专利中";
 	getPatents();
 }
+
 let show=ref(true);
 
-function onsale(row: Patent) {
-  show.value = false;
+async function onsale(row: Patent) {
   onsalepatent.value = row;
+  console.log("onsalepatent", onsalepatent.value);
+  const owner = localStorage.getItem("userAddress"); // 当前用户的地址
+  try {
+    console.log("onsalepatent patentID", onsalepatent.value.patentID);
+    await Patent.methods.listForSale(onsalepatent.value.patentID).send({ from: owner });
+    ElMessage.success('专利已成功上架出售');
+
+    // Clear the patents array and fetch the latest data
+    patents.value = [];
+    await getPatents();
+  } catch (error) {
+    console.error('专利上架失败：', error);
+    ElMessage.error('专利上架失败，请检查链上状态或钱包连接');
+  }
 }
 
 function back(){
@@ -146,7 +133,6 @@ function back(){
 }
 
 let price=ref(0);
-let password=ref("");
 let loadingText=ref("")
 
 async function comfirmSale() {

@@ -2,16 +2,15 @@
   <div id="a" v-loading="loading" :element-loading-text="loadingText">
     <div id="d4">
       <el-table :data="paginatedPatents" border stripe id="d5">
-        <el-table-column fixed prop="patentID" label="专利ID" width="150" />
-        <el-table-column prop="price" label="专利价格/￥" width="150" />
-        <el-table-column prop="patentDetail" label="专利描述" width="1200" show-overflow-tooltip />
+        <el-table-column fixed prop="patentID" label="专利ID" width="150"/>
+        <el-table-column prop="price" label="专利价格/￥" width="150"/>
+        <el-table-column prop="patentDetail" label="专利描述" width="1200" show-overflow-tooltip/>
         <el-table-column fixed="right" label="操作" width="100">
           <template #default="{row}">
             <el-button type="primary" size="small" @click="buy(row)">购买</el-button>
           </template>
         </el-table-column>
       </el-table>
-
       <!-- 分页组件 -->
       <div id="d6">
         <el-pagination
@@ -29,10 +28,10 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue';
-import { ElMessage, ElMessageBox } from 'element-plus';
-import { useRouter } from 'vue-router';
-import { web3, PatentMarket } from '@/web3';
+import {ref, computed, onMounted} from 'vue';
+import {ElMessage, ElMessageBox} from 'element-plus';
+import {useRouter} from 'vue-router';
+import {web3, Patent} from '@/web3';
 
 const router = useRouter();
 
@@ -40,6 +39,7 @@ interface Patent {
   patentID: string;
   patentDetail: string;
   price: number;
+  currentOwner: string;
 }
 
 let loading = ref(false);
@@ -65,24 +65,26 @@ async function getPatents() {
   loading.value = true;
   try {
     // 获取当前用户地址
-    const accounts = await web3.eth.getAccounts();
-    const buyer = accounts[0];
+    const owner = localStorage.getItem("userAddress"); // 当前用户的地址
 
     // 调用合约的 fetchMarketPatents 函数
-    const marketPatents = await PatentMarket.methods.fetchMarketPatents().call();
+    const marketPatents = await Patent.methods.fetchMarketPatents(owner).call();
+
+    console.log('marketPatents:', marketPatents);
 
     // 确保返回的数据是数组
     if (Array.isArray(marketPatents)) {
       patents.value = marketPatents.map((patent: any) => ({
         patentID: patent.patentId,
         patentDetail: patent.description,
-        price: patent.price
+        price: patent.price,
+        currentOwner: patent.currentOwner
       }));
     } else {
       patents.value = [];
     }
   } catch (error) {
-    ElMessage({ message: '获取专利信息失败', type: 'warning' });
+    ElMessage({message: '获取专利信息失败', type: 'warning'});
   } finally {
     loading.value = false;
   }
@@ -93,12 +95,19 @@ async function buy(row: Patent) {
   loading.value = true;
   loadingText.value = "正在购买...";
   try {
-    // 获取当前用户地址
-    const accounts = await web3.eth.getAccounts();
-    const buyer = accounts[0];
+
+
+
+    const buyer = localStorage.getItem("userAddress"); // 当前用户的地址
+
+    const buyerPatents = await Patent.methods.getUserPatents().call({from: buyer});
+    const sellerPatents = await Patent.methods.getUserPatents().call({from: row.currentOwner});
+
+    console.log('buyerPatents:', buyerPatents);
+    console.log('sellerPatents:', sellerPatents);
 
     // 调用合约的 buyPatent 函数
-    await PatentMarket.methods.buyPatent(row.patentID).send({ from: buyer, value: row.price });
+    await Patent.methods.buyPatent(row.patentID).send({from: buyer, value: row.price});
 
     ElMessageBox.alert('专利购买成功', '交易成功', {
       confirmButtonText: '确认',
